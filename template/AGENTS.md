@@ -14,7 +14,8 @@ every decision; Jordi at Rhiza Systems engineers this system on retainer.
 ├── knowledge/       what this OS knows about the business
 ├── connections/     the lines out to the business's tools (Jordi builds these)
 ├── automations/     what runs on its own (Jordi builds these)
-└── workspaces/      step-by-step recurring work, one folder each
+├── workspaces/      step-by-step recurring work, one folder each
+└── audits/          the monthly health reports from Jordi's tune-up
 ```
 
 ## Who does what
@@ -42,6 +43,7 @@ every decision; Jordi at Rhiza Systems engineers this system on retainer.
 | What a connected tool can do | `connections/` |
 | What runs automatically, and its status | `automations/` (each has an ABOUT.md) |
 | Recurring multi-step work | `workspaces/` |
+| How the system has been scoring month to month | `audits/` |
 | Anything unresolved | `OPEN-QUESTIONS.md` |
 
 Load only what the question needs. Never read the whole folder to answer one thing.
