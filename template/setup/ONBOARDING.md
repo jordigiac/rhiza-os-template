@@ -64,8 +64,9 @@ build gets scheduled before the call ends and written into STATE.md's
    any workflow that's genuinely step-by-step and repeating.
 4. Replace [BUSINESS NAME] and [OWNER NAME] everywhere, including CLAUDE.md
    and AGENTS.md (keep both files identical).
-5. Scan the whole folder for remaining [BRACKETED] placeholders — if any
-   remain, ask for the missing piece.
+5. Scan the whole folder for remaining [BRACKETED] placeholders, skipping
+   files and folders named `_template` (their brackets are the point). If
+   any remain elsewhere, ask for the missing piece.
 6. Stamp the install: append to decisions.md — "Installed from Rhiza OS
    template, [today's date], template commit [short hash]." Future tune-ups
    use this stamp to see what the master template has learned since.

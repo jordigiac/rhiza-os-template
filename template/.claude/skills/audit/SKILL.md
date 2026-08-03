@@ -24,20 +24,24 @@ put the two side by side and go down the line.
 
 - Routing check: every path in CLAUDE.md's map and routing table exists on
   disk, and everything on disk is reachable from the front desk. Check both
-  directions. Confirm AGENTS.md is identical to CLAUDE.md.
+  directions. Plumbing does not need a room: skip dot-prefixed files and
+  folders (.claude, .env.example, .gitignore) and AGENTS.md when checking
+  reachability. Confirm AGENTS.md is identical to CLAUDE.md.
 - New-hire test: open the folder cold. Can a stranger orient and route to
   any task in three reads or fewer? Name where they would get lost.
 - Truth check: files untouched 30+ days that claim to be current,
   contradictions between files, the same fact written in two places,
-  leftover [BRACKETED] placeholders.
+  leftover [BRACKETED] placeholders. Files and folders named `_template`
+  keep their brackets by design; skip them.
 - Bloat check: CLAUDE.md over 60 lines, any knowledge file that has grown
   crowded, any workspace contract over 80 lines.
 
 ## Pass 2 — machinery (does everything still run?)
 
-- Each automation: ABOUT.md matches reality (schedule, location, ladder
-  status), logs show clean runs since the last report, SETUP.md's
-  verification step still passes as described.
+- Each automation (skip `_template` folders; those are blank starters):
+  ABOUT.md matches reality (schedule, location, ladder status), logs show
+  clean runs since the last report, SETUP.md's verification step still
+  passes as described.
 - Each skill: present, listed in the skills README, and actually referenced
   or used. Flag anything unused or broken.
 - Connections: each reference file names a real .env key in .env.example
@@ -57,6 +61,19 @@ the same manual task appearing session after session, an automation whose
 logs show growing load, a workflow the owner keeps mentioning. List each
 with its evidence. Suggest nothing beyond the evidence; Jordi and the owner
 decide on the monthly call.
+
+## Scoring anchors — Four C's, 25 points each
+
+For each C: 0–8 missing or stale, 9–17 present but thin or unused, 18–25
+current, specific, and actually used since the last report.
+
+- Context: knowledge/ filled in the owner's words, current, no contradictions.
+- Connections: reference files wired to real keys, minimal permissions, in use.
+- Capabilities: presets healthy, plus custom skills matched to real repeated work.
+- Cadence: automations running clean on their own, ladder statuses honest.
+
+A fresh install lands in the 30s: Context high, everything else empty by
+design. That is not a bad grade; the trend across reports is the point.
 
 ## Report format
 
@@ -82,4 +99,4 @@ Cadence NN/25). Last month: NN. One-line verdict.
 Every finding above as one checkbox line, in checklist order.
 ```
 
-Score honestly. A fresh install scoring 50 is normal; the trend is the point.
+Score honestly, against the anchors above, the same way every month.
