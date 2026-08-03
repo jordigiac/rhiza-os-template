@@ -1,12 +1,12 @@
 # Onboarding — the first conversation
 
-> **DRAFT v1 (2026-08-02).** To be refined with Jordi before first client use —
-> the questions below must match what actually gets covered on a live
-> onboarding call, per the call agenda in the Rhiza playbook.
+> **DRAFT v1 (2026-08-02).** To be refined before first client use — the
+> questions must match what a live onboarding conversation actually covers.
 
-**How this runs:** live on a call. Jordi drives the keyboard; the owner just
-talks. Ask conversationally, a few questions at a time — never as a form.
-Capture the owner's own words; don't polish them into corporate language.
+**How this runs:** live, in one conversation. The owner just talks; you ask
+and capture. Ask conversationally, a few questions at a time — never as a
+form. Capture the owner's own words; don't polish them into corporate
+language.
 
 ## Part 1 — The business (→ knowledge/business-profile.md)
 
@@ -38,7 +38,7 @@ Capture the owner's own words; don't polish them into corporate language.
 
 11. Walk through where things live: money in and out, customers, calendar,
     email and messages, tasks, meetings/notes, and any knowledge stores
-    (docs, wikis, drives). Just names — Jordi wires them up later.
+    (docs, wikis, drives). Just names — wiring them up comes after onboarding.
 
 ## Part 6 — The workflows (the most valuable part)
 

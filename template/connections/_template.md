@@ -14,7 +14,7 @@ never sends."]
 - Can: [what's allowed]
 - Cannot: [what's blocked, on purpose]
 
-## How to reach it (Jordi's section)
+## How to reach it (technical notes)
 
 [API endpoints, quirks, and anything learned from failures — kept specific so
 the OS never has to re-research this tool. Key name in .env: EXAMPLE_KEY]

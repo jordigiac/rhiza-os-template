@@ -11,5 +11,5 @@ result.]
 
 ## If it breaks
 
-[What the owner will notice, and what to do: usually nothing — Jordi sees the
-logs at the tune-up. For anything urgent, message Jordi.]
+[What the owner will notice, and who to contact — filled in when this
+automation is installed. Logs get reviewed at every monthly audit.]

@@ -1,7 +1,7 @@
 # Priorities — the next 90 days
 
-*(Filled during onboarding, refreshed on calls with Jordi. When the OS helps
-you plan or decide, it weighs everything against this list.)*
+*(Filled during onboarding, refreshed whenever priorities change. When the OS
+helps you plan or decide, it weighs everything against this list.)*
 
 ## Top priorities
 

@@ -1,7 +1,7 @@
 # STATE — what's happening right now
 
-*Maintained by /handoff at the end of each session. Jordi refreshes the
-"Up next" section on calls and at every monthly tune-up.*
+*Maintained by /handoff at the end of each session. The "Up next" section
+is refreshed whenever new builds are planned.*
 
 ## Active
 
@@ -11,7 +11,7 @@
 
 *(Delete the EXAMPLE row once real work is here. One row per active thing.)*
 
-## Up next — what Jordi is building for you
+## Up next — what's being built
 
 | Automation | What it will do | When to expect it |
 |---|---|---|

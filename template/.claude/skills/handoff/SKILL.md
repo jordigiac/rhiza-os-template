@@ -14,7 +14,8 @@ The owner's one command. It must work every time and take under a minute.
 2. Update STATE.md:
    - Active rows that moved: update status, last updated, next step.
    - Finished work: move to Recently completed.
-   - Do not touch "Up next" (that section is Jordi's).
+   - Do not touch "Up next" (that section changes only when builds are
+     planned, never at save time).
 3. For each decision the owner made, append to decisions.md: date, what was
    decided, and the why in the owner's own words. A decision is something the
    owner said yes or no to. If you are not sure something was decided, ask

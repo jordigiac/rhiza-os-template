@@ -1,16 +1,17 @@
 ---
 name: audit
-description: The truth check. Read-only monthly health report - verifies every claim in the OS against reality, scores the Four C's, surfaces automation opportunities from evidence, and writes a dated report into audits/. Use when Jordi runs /audit or asks how the system is doing. Never fixes anything.
+description: The truth check. Read-only monthly health report - verifies every claim in the OS against reality, scores the Four C's, surfaces automation opportunities from evidence, and writes a dated report into audits/. Use when someone runs /audit or asks how the system is doing. Never fixes anything.
 ---
 
 # Audit — is this OS still telling the truth?
 
 Read-only, by oath: never fix, rename, move, or delete anything. Files and
 wikis are claims about what exists; this skill checks every claim against
-reality and reports. Fixing is Jordi's job at the tune-up.
+reality and reports. Fixing happens deliberately on the monthly maintenance
+pass, never silently by this skill.
 
-The report mirrors Jordi's tune-up checklist section for section, so he can
-put the two side by side and go down the line.
+The report is built to be worked top to bottom: every finding pairs with
+what to do about it, so the maintenance pass can go down the line.
 
 ## Steps
 
@@ -59,8 +60,8 @@ put the two side by side and go down the line.
 Scan STATE.md history, decisions.md, and handoff commits for patterns:
 the same manual task appearing session after session, an automation whose
 logs show growing load, a workflow the owner keeps mentioning. List each
-with its evidence. Suggest nothing beyond the evidence; Jordi and the owner
-decide on the monthly call.
+with its evidence. Suggest nothing beyond the evidence; deciding what to
+build belongs to people, not to this report.
 
 ## Scoring anchors — Four C's, 25 points each
 
@@ -84,13 +85,13 @@ Four C's: NN/100 (Context NN/25, Connections NN/25, Capabilities NN/25,
 Cadence NN/25). Last month: NN. One-line verdict.
 
 ## Pass 1 — health
-[finding] → [what Jordi should do]
+[finding] → [what to do about it]
 
 ## Pass 2 — machinery
-[finding] → [what Jordi should do]
+[finding] → [what to do about it]
 
 ## Pass 3 — evolution
-[finding] → [what Jordi should do]
+[finding] → [what to do about it]
 
 ## Opportunities
 [pattern] — [evidence]

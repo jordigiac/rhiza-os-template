@@ -16,7 +16,7 @@ Two things worth knowing:
   Anything that sends outbound messages or moves money keeps a human yes
   forever, unless the owner explicitly decides otherwise.
 
-Jordi builds, verifies, and maintains everything here. He never ships an
-automation without watching it run successfully first.
+Every automation here was watched running successfully before it was
+installed, and each one keeps logs so its health can be checked at any time.
 
 Copy `_template/` to start a new automation record.

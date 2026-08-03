@@ -9,7 +9,7 @@ healthy; the fourth guards the voice.
   session with nothing lost: state updated, decisions logged, committed.
 - **audit** — the truth check. Read-only monthly report on whether the OS
   still matches reality, plus automation opportunities backed by evidence.
-  Jordi runs it; its report drives the monthly tune-up.
+  Its report drives the monthly maintenance pass.
 - **humanizer** — the voice guard. Any draft meant for a person to read runs
   through it before the owner sees it, so nothing leaves this OS sounding
   like AI. (Vendored from blader/humanizer, MIT, with Rhiza's structural
@@ -19,5 +19,5 @@ There is no "level-up" skill. The questions that surface new automations are
 a conversation, so they live in the monthly call agenda on Rhiza's side, not
 in the toolbox.
 
-Skills the client uses day to day are custom work, built per client by Jordi
-as part of the engagement and added here as the business needs them.
+Skills the owner uses day to day are custom work, added here as the
+business needs them.

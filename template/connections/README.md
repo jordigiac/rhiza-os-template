@@ -5,8 +5,9 @@ customers, money) and exactly what it's allowed to do there.
 
 How these work, in plain terms:
 
-- **Jordi builds them.** He researches the tool once, writes the reference
-  file, and wires it up. The owner never has to touch this folder.
+- **Built once, reused forever.** Each tool gets researched once and written
+  into a reference file here, so the OS never re-researches it. The owner
+  never has to touch this folder.
 - **Restricted on purpose.** Wherever possible, the OS gets its own limited
   account per tool — it can never act as you. Read-only until there's a
   reason to trust it with more.

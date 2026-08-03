@@ -5,7 +5,7 @@ description: Installs the client into their OS. Runs the setup interview live on
 
 # Onboard — turn the blank template into their system
 
-Runs once, live on a call. Jordi drives the keyboard; the owner just talks.
+Runs once, live, in one conversation. The owner just talks; you ask and capture.
 
 ## Steps
 
