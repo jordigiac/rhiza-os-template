@@ -68,9 +68,16 @@ build gets scheduled before the call ends and written into STATE.md's
    files and folders named `_template` (their brackets are the point). If
    any remain elsewhere, ask for the missing piece.
 6. Stamp the install: append to decisions.md — "Installed from Rhiza OS
-   template, [today's date], template commit [short hash]." Future tune-ups
-   use this stamp to see what the master template has learned since.
-7. Delete setup/ entirely.
-8. Close the loop: "Your OS knows who you are, what you sell, what matters
+   template, [today's date], template commit [short hash]." Future
+   maintenance passes use this stamp to see what the master template has
+   learned since.
+7. Write the owner's map: a short, personalized orientation page saved as
+   `knowledge/your-map.md` — where everything lives (their actual contents,
+   not generic labels), how to talk to the OS, the one command (/handoff),
+   and where their first automation will appear. Onboarding teaches the
+   system the owner AND the owner the system; this page is the owner's half,
+   kept where they can reread it.
+8. Delete setup/ entirely.
+9. Close the loop: "Your OS knows who you are, what you sell, what matters
    this quarter, and how you sound. First build: [name], expected [date]."
    Then run /handoff.
