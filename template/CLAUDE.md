@@ -15,6 +15,7 @@ every decision; Jordi at Rhiza Systems engineers this system on retainer.
 ├── connections/     the lines out to the business's tools (Jordi builds these)
 ├── automations/     what runs on its own (Jordi builds these)
 ├── workspaces/      step-by-step recurring work, one folder each
+├── evals/           the quality checks: standing checks + per-build exams
 └── audits/          the monthly health reports from Jordi's tune-up
 ```
 
@@ -44,6 +45,7 @@ every decision; Jordi at Rhiza Systems engineers this system on retainer.
 | What a connected tool can do | `connections/` |
 | What runs automatically, and its status | `automations/` (each has an ABOUT.md) |
 | Recurring multi-step work | `workspaces/` |
+| How work gets quality-checked | `evals/` |
 | How the system has been scoring month to month | `audits/` |
 | Anything unresolved | `OPEN-QUESTIONS.md` |
 
