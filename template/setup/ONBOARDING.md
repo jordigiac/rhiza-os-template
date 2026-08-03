@@ -66,7 +66,10 @@ build gets scheduled before the call ends and written into STATE.md's
    and AGENTS.md (keep both files identical).
 5. Scan the whole folder for remaining [BRACKETED] placeholders — if any
    remain, ask for the missing piece.
-6. Delete setup/ entirely.
-7. Close the loop: "Your OS knows who you are, what you sell, what matters
+6. Stamp the install: append to decisions.md — "Installed from Rhiza OS
+   template, [today's date], template commit [short hash]." Future tune-ups
+   use this stamp to see what the master template has learned since.
+7. Delete setup/ entirely.
+8. Close the loop: "Your OS knows who you are, what you sell, what matters
    this quarter, and how you sound. First build: [name], expected [date]."
    Then run /handoff.

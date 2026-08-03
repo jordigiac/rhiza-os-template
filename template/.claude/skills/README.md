@@ -1,16 +1,19 @@
 # skills/ — the OS's preset toolbox
 
-*Placeholder (2026-08-02): the preset skills are being defined in Rhiza's
-skills build session and will land here when ready.*
+Three presets ship with every install. They keep the system itself healthy;
+they are not day-to-day client tools.
 
-Planned presets — these keep the SYSTEM healthy and are mainly Jordi's tools,
-not day-to-day client tools:
+- **onboard** — installs the client into their OS. Runs the setup interview
+  live on a call, once, then retires itself along with setup/.
+- **handoff** — the save button, and the owner's one command. Closes a
+  session with nothing lost: state updated, decisions logged, committed.
+- **audit** — the truth check. Read-only monthly report on whether the OS
+  still matches reality, plus automation opportunities backed by evidence.
+  Jordi runs it; its report drives the monthly tune-up.
 
-- **onboard** — runs the setup/ONBOARDING.md interview on first launch
-- **handoff** — closes a session: updates STATE.md, logs decisions, commits
-- **audit** — read-only health check of the whole OS; the heart of the
-  monthly tune-up
-- **level-up** — the questions that surface the next automation worth building
+There is no "level-up" skill. The questions that surface new automations are
+a conversation, so they live in the monthly call agenda on Rhiza's side, not
+in the toolbox.
 
-Skills the client uses day to day are custom work — built per client by Jordi
-as part of the engagement, added here as the business needs them.
+Skills the client uses day to day are custom work, built per client by Jordi
+as part of the engagement and added here as the business needs them.
