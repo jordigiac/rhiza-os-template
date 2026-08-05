@@ -21,9 +21,12 @@ The owner's one command. It must work every time and take under a minute.
    owner said yes or no to. If you are not sure something was decided, ask
    before writing it.
 4. Add unresolved items to OPEN-QUESTIONS.md as dated one-liners.
-5. If this folder has a git remote: commit everything with a one-line plain
+5. Read back the open questions this session created — one line each — so
+   the owner can answer any on the spot. Answered ones get filed (decisions
+   to decisions.md, facts to the right knowledge/ file) and removed.
+6. If this folder has a git remote: commit everything with a one-line plain
    English message (what happened, not file names) and push.
-6. Tell the owner what was filed, in two or three plain lines. Done.
+7. Tell the owner what was filed, in two or three plain lines. Done.
 
 ## Guardrails
 

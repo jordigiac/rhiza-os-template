@@ -4,6 +4,11 @@ Each automation gets one folder here holding its record: an ABOUT.md (what it
 does, where it lives, its trust status), a SETUP.md (how it was authorized and
 how to verify it), and its logs — or a pointer to where logs land.
 
+**A build's folder is born the moment it's scoped** — at a call, by a person.
+The ABOUT.md holds the spec from day one; STATE.md keeps only a one-line
+"Up next" row pointing here. Scoping is always a human act: the owner or
+their builder starts that conversation, never this system.
+
 Two things worth knowing:
 
 - **The code may live elsewhere.** Bigger automations that run in the cloud

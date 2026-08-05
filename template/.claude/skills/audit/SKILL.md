@@ -55,7 +55,11 @@ what to do about it, so the maintenance pass can go down the line.
 - Workspaces still earn their place: is the work still repeating?
 - STATE.md's Up next is current, with dates the owner can trust.
 
-## Opportunities — evidence only, decisions are humans' work
+## Opportunities — evidence only, operator-only, decisions are humans' work
+
+This section is for whoever maintains the system. It never surfaces in
+conversation with the owner — the no-proposing rule holds; this report is
+where the evidence waits for the humans' next planning conversation.
 
 Scan STATE.md history, decisions.md, and handoff commits for patterns:
 the same manual task appearing session after session, an automation whose
