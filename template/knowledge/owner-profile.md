@@ -1,5 +1,7 @@
 # Owner profile
 
+*Last confirmed: [set at onboarding]*
+
 *(Filled during onboarding.)*
 
 ## Who you are

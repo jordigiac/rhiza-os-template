@@ -50,6 +50,10 @@ what to do about it, so the maintenance pass can go down the line.
 
 ## Pass 3 — evolution (does the system still fit the business?)
 
+- Knowledge fresh: each fact file's "Last confirmed" age, and the claims
+  themselves checked against decisions.md, STATE.md, and recent session
+  evidence — contradictions become proposed corrections in this report.
+  Oldest confirmation past ~45 days → flag: checkup due.
 - Knowledge sized right: files that should split into a folder with an
   index, or folders that shrank back to a file.
 - Workspaces still earn their place: is the work still repeating?
@@ -70,7 +74,9 @@ build belongs to people, not to this report.
 ## Scoring anchors — Four C's, 25 points each
 
 For each C: 0–8 missing or stale, 9–17 present but thin or unused, 18–25
-current, specific, and actually used since the last report.
+current, specific, and actually used since the last report. **A category
+with nothing in it scores 0 — empty is a fact, not an insult. No points
+for potential, politeness, or things that merely could exist.**
 
 - Context: knowledge/ filled in the owner's words, current, no contradictions.
 - Connections: reference files wired to real keys, minimal permissions, in use.
@@ -104,4 +110,6 @@ Cadence NN/25). Last month: NN. One-line verdict.
 Every finding above as one checkbox line, in checklist order.
 ```
 
-Score honestly, against the anchors above, the same way every month.
+Score honestly, against the anchors above, the same way every month. And
+write the whole report in plain business English — file paths are fine,
+jargon is not. If a sentence wouldn't land with a busy owner, rewrite it.

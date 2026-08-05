@@ -6,7 +6,9 @@ on. A weekly client report, a monthly newsletter, a hiring process.
 
 There's nothing here yet on purpose. Workspaces get created deliberately —
 during onboarding, or whenever a genuinely repeating piece of work shows up.
-Work that's only happened twice doesn't get a workspace yet.
+Work that's only happened twice doesn't get a workspace yet — unless the
+owner and the OS scope one together off a real run. Chosen is different
+from assumed.
 
 Each workspace folder gets numbered step folders, and each step carries a
 short CONTEXT.md contract: what it reads, what it does, what it writes, and

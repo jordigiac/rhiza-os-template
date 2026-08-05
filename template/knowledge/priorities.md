@@ -1,5 +1,7 @@
 # Priorities — the next 90 days
 
+*Last confirmed: [set at onboarding]*
+
 *(Filled during onboarding, refreshed whenever priorities change. When the OS
 helps you plan or decide, it weighs everything against this list.)*
 

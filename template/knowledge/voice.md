@@ -1,5 +1,7 @@
 # Voice — how this business sounds
 
+*Last confirmed: [set at onboarding]*
+
 *(Filled during onboarding. Real examples beat descriptions — the OS learns
 your sound from things you actually wrote, not from adjectives.)*
 

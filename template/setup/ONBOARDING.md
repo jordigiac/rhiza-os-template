@@ -59,7 +59,9 @@ build gets scheduled before the call ends and written into STATE.md's
 ## After the interview (generation rules)
 
 1. Write the answers into the four knowledge/ files — owner's words, headed
-   sections, nothing invented.
+   sections, nothing invented. Set each file's "Last confirmed" line to
+   today. Personalize the front desk's identity paragraph with the owner's
+   answer to Q5 (reasoning shown, or straight answers).
 2. Fill STATE.md: real active work into Active, the chosen automations into
    Up next. Delete the EXAMPLE row.
 3. Propose — but do not create until the owner says yes — one workspace for

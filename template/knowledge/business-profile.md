@@ -1,5 +1,7 @@
 # Business profile
 
+*Last confirmed: [set at onboarding]*
+
 *(Filled during onboarding — the owner's words, kept simple.)*
 
 ## What the business does
