@@ -26,7 +26,9 @@ language.
 ## Part 3 — The voice (→ knowledge/voice.md)
 
 7. Paste one or two things you've written recently — an email, a post, a
-   text. Don't edit them; verbatim is the point.
+   text. Don't edit them; verbatim is the point. **If you don't really
+   write:** read out a text or voicemail you sent a customer, and it gets
+   transcribed with your permission — spoken voice counts.
 8. Show one example of writing that is NOT your voice, and say why.
 
 ## Part 4 — The priorities (→ knowledge/priorities.md)
@@ -72,11 +74,13 @@ build gets scheduled before the call ends and written into STATE.md's
    maintenance passes use this stamp to see what the master template has
    learned since.
 7. Write the owner's map: a short, personalized orientation page saved as
-   `knowledge/your-map.md` — where everything lives (their actual contents,
-   not generic labels), how to talk to the OS, the one command (/handoff),
-   and where their first automation will appear. Onboarding teaches the
-   system the owner AND the owner the system; this page is the owner's half,
-   kept where they can reread it.
+   `knowledge/your-map.md`, in five beats, always: (1) welcome, one line;
+   (2) talk to it — what it knows about you; (3) where things live, in
+   their actual contents, not generic labels; (4) your one command,
+   /handoff; (5) what it never does, plus when the first automation lands.
+   Written in the owner's register. Onboarding teaches the system the owner
+   AND the owner the system; this page is the owner's half, kept where they
+   can reread it.
 8. Delete setup/ entirely.
 9. Close the loop: "Your OS knows who you are, what you sell, what matters
    this quarter, and how you sound. First build: [name], expected [date]."
