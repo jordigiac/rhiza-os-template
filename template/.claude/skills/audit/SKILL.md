@@ -1,6 +1,6 @@
 ---
 name: audit
-description: The truth check. Read-only monthly health report - verifies every claim in the OS against reality, scores the Four C's, surfaces automation opportunities from evidence, and writes a dated report into audits/. Use when someone runs /audit or asks how the system is doing. Never fixes anything.
+description: Read-only health check of THIS operating system folder. Checks routing, files, automations, and skills against reality, scores the Four C's, and writes a dated report into audits/. Use for /audit or "how is the system doing". Never audits the computer itself. Never fixes anything.
 ---
 
 # Audit — is this OS still telling the truth?
