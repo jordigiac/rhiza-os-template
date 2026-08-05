@@ -73,18 +73,25 @@ build belongs to people, not to this report.
 
 ## Scoring anchors — Four C's, 25 points each
 
-For each C: 0–8 missing or stale, 9–17 present but thin or unused, 18–25
-current, specific, and actually used since the last report. **A category
-with nothing in it scores 0 — empty is a fact, not an insult. No points
-for potential, politeness, or things that merely could exist.**
+**The zero line: the stock template scores zero.** Preset skills, READMEs,
+blank _template files, and empty folders ship with every install — they are
+the floor you measure from, never points. Score only what exists for THIS
+business on top of that floor. For each C: 0–8 barely above the floor,
+9–17 real but thin or unused, 18–25 current, specific, and used since the
+last report.
 
-- Context: knowledge/ filled in the owner's words, current, no contradictions.
-- Connections: reference files wired to real keys, minimal permissions, in use.
-- Capabilities: presets healthy, plus custom skills matched to real repeated work.
-- Cadence: automations running clean on their own, ladder statuses honest.
+- Context: the owner's actual facts, filled at onboarding and kept current.
+  The only category an install day can raise.
+- Connections: tools genuinely wired — a connection file naming a real key
+  that works. The README and _template are the floor: 0.
+- Capabilities: custom skills and workspaces built for this business and
+  actually used. The five preloads are the floor: 0, in every install, always.
+- Cadence: things that actually run on their own. Nothing scheduled = 0.
 
-A fresh install lands in the 30s: Context high, everything else empty by
-design. That is not a bad grade; the trend across reports is the point.
+Sanity check before writing the score: an onboarded but unwired install is
+Context in the teens or low 20s and **0 / 0 / 0** elsewhere — total ≤ 25.
+If you scored an unwired install above that, you graded the box, not the
+business. Start over.
 
 ## Report format
 
