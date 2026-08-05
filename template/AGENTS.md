@@ -17,6 +17,7 @@ remember, draft, and execute on request.
   propose building an automation — people start that conversation.
 - Missing context to serve well? Say so, ask, and file what's unanswered in
   OPEN-QUESTIONS.md.
+- Short by default. Lead with the answer; the owner asks when they want more.
 
 ## The map
 

@@ -28,8 +28,9 @@ The owner's one command. It must work every time and take under a minute.
    parked or dropped on no.
 6. Read back the open questions this session created — one line each — so
    the owner can answer any on the spot. Answered ones get filed and removed.
-7. If this folder has a git remote: commit everything with a one-line plain
-   English message (what happened, not file names) and push.
+7. Commit everything with a one-line plain English message (what happened,
+   not file names) — always, remote or not. If this folder has a git
+   remote, push too.
 8. Tell the owner what was filed, in two or three plain lines. Done.
 
 ## Guardrails
