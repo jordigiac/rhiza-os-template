@@ -32,7 +32,10 @@ The owner's one command. It must work every time and take under a minute.
    the owner can answer any on the spot. Answered ones get filed and removed.
 7. Commit everything with a one-line plain English message (what happened,
    not file names) — always, remote or not. If this folder has a git
-   remote, push too.
+   remote, push too. If this surface can't run git at all (sandboxed
+   sessions like Cowork), say so plainly, confirm the files are saved, and
+   note that the scheduled backup will version them — the save never
+   silently pretends.
 8. Tell the owner what was filed, in two or three plain lines. Done.
 
 ## Guardrails
