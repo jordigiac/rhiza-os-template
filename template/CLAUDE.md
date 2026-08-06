@@ -25,6 +25,11 @@ remember, draft, and execute on request.
   the same thing twice, ask what's going on — then propose where the new
   line belongs: PERSONA.md, decisions.md, or the contract. The owner
   talks; you write.
+- **Corrections teach twice.** A correction never just fixes the task in
+  front of you — update the file that caused the mistake (the skill, the
+  knowledge file, the persona) so it can't happen again. A correction is
+  the highest-leverage thing the owner can give; treat every one as a
+  gift, never as friction.
 - **The markdown is the skill.** Every skill lives complete in
   `.claude/skills/` as plain files. If the owner names one — handoff,
   checkup, audit — and nothing fires automatically (some Claude surfaces

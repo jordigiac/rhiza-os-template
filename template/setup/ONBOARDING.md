@@ -25,6 +25,11 @@ language.
    them. This is also the reframe moment, said plainly: this system isn't
    a search bar — it remembers the business, and it works best when the
    owner thinks out loud with it instead of only asking it for answers.
+   Then teach the six phrases, out loud: **"Always…" / "Never…"** (a
+   permanent rule) · **"Remember that…"** (a fact) · **"From now on…"**
+   (a preference change) · **"Don't do that again"** (a correction that
+   sticks) · **"When I ask for X, I mean Y"** (interpretation). Each one
+   changes the system permanently — talking is how the owner programs it.
 6. **The contract (→ CONTRACT.md):** read the five starter laws back in
    plain words — the safety rails the system arrived with. Then ask:
    "What should this system never do without asking you first? Anything
@@ -85,9 +90,12 @@ build gets scheduled before the call ends and written into STATE.md's
    learned since.
 7. Write the owner's map: a short, personalized orientation page saved as
    `knowledge/your-map.md`, in five beats, always: (1) welcome, one line;
-   (2) talk to it — what it knows about you; (3) where things live, in
-   their actual contents, not generic labels; (4) your one command,
-   /handoff; (5) what it never does, plus when the first automation lands.
+   (2) talk to it — what it knows about you, and the six teach phrases
+   (Always… / Never… / Remember that… / From now on… / Don't do that
+   again / When I ask for X, I mean Y — each changes the system
+   permanently); (3) where things live, in their actual contents, not
+   generic labels; (4) your one command, /handoff; (5) what it never
+   does, plus when the first automation lands.
    Written in the owner's register. Onboarding teaches the system the owner
    AND the owner the system; this page is the owner's half, kept where they
    can reread it.

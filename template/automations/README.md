@@ -9,7 +9,7 @@ The ABOUT.md holds the spec from day one; STATE.md keeps only a one-line
 "Up next" row pointing here. Scoping is always a human act: the owner or
 their builder starts that conversation, never this system.
 
-Two things worth knowing:
+Three things worth knowing:
 
 - **The code may live elsewhere.** Bigger automations that run in the cloud
   get their own small, clearly-labeled repo so runs stay fast and lean. The
@@ -22,6 +22,14 @@ Two things worth knowing:
   custom quality checks consistently), and only then runs **automated**.
   Anything that sends outbound messages or moves money keeps a human yes
   forever, unless the owner explicitly decides otherwise.
+- **Every automation runs on the lowest rung of the cost ladder that
+  works.** (1) A pure script — no AI at runtime, near-free forever;
+  intelligence gets used once, at build time. (2) Conditional — a cheap
+  scripted check runs on the clock, and the AI wakes only when the check
+  finds something. (3) A full agent on every run — last resort, only when
+  each run truly needs judgment. This rides beside the trust ladder (one
+  governs safety, the other cost) and is what keeps this OS affordable on
+  a regular Claude subscription.
 
 Every automation here was watched running successfully before it was
 installed, and each one keeps logs so its health can be checked at any time.
