@@ -15,13 +15,21 @@ language.
 2. Who are your customers, and what do they pay you for?
 3. Who works here, and who handles what? (Solo is a fine answer.)
 
-## Part 2 — The owner (→ knowledge/owner-profile.md)
+## Part 2 — The owner (→ owner-profile.md, PERSONA.md, CONTRACT.md)
 
 4. What do YOU actually spend your days on?
-5. How do you like things presented to you — short and decisive, or with the
-   reasoning shown?
-6. What should this system never do without asking you first? (Outbound
-   messages and money are already permanent "ask first" rules.)
+5. **The wake-up (→ PERSONA.md):** "What do you want to call me?" and "How
+   should I talk to you?" — casual or formal, short answers or the
+   reasoning shown, plain talk or lists. Write the answers into PERSONA.md
+   live, in the owner's words; it grows from here as the system learns
+   them. This is also the reframe moment, said plainly: this system isn't
+   a search bar — it remembers the business, and it works best when the
+   owner thinks out loud with it instead of only asking it for answers.
+6. **The contract (→ CONTRACT.md):** read the five starter laws back in
+   plain words — the safety rails the system arrived with. Then ask:
+   "What should this system never do without asking you first? Anything
+   you'd add?" New laws get written on the spot, in the owner's words.
+   (Outbound messages and money are already permanent "ask first" rules.)
 
 ## Part 3 — The voice (→ knowledge/voice.md)
 
@@ -60,8 +68,8 @@ build gets scheduled before the call ends and written into STATE.md's
 
 1. Write the answers into the four knowledge/ files — owner's words, headed
    sections, nothing invented. Set each file's "Last confirmed" line to
-   today. Personalize the front desk's identity paragraph with the owner's
-   answer to Q5 (reasoning shown, or straight answers).
+   today. PERSONA.md and CONTRACT.md were written live during Part 2 —
+   read them back and confirm they sound like the owner, not like AI.
 2. Fill STATE.md: real active work into Active, the chosen automations into
    Up next. Delete the EXAMPLE row.
 3. Propose — but do not create until the owner says yes — one workspace for

@@ -25,7 +25,9 @@ The owner's one command. It must work every time and take under a minute.
 5. The knowledge sweep: facts the owner stated directly this session get
    written into the right knowledge/ file now — dated, "Last confirmed"
    refreshed — and named in your close. Inferences get asked: filed on yes,
-   parked or dropped on no.
+   parked or dropped on no. Themes too: a preference the owner repeated
+   this session is worth naming — ask what's going on, and propose the
+   line for PERSONA.md, decisions.md, or the contract. Their yes writes it.
 6. Read back the open questions this session created — one line each — so
    the owner can answer any on the spot. Answered ones get filed and removed.
 7. Commit everything with a one-line plain English message (what happened,
