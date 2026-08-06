@@ -4,6 +4,13 @@ Five preloaded skills ship with every install. Together they serve the one
 job: keep the system's knowledge of the business complete and true, and
 lose nothing.
 
+Every skill lives complete in this folder as markdown — nothing to install
+on the machine, nothing outside the OS. The toolbox travels with the folder
+and works in any Claude surface: the front desk carries the fallback (name
+a skill; if nothing fires automatically, its SKILL.md gets read and
+followed), so the OS survives interface changes. Only automation code lives
+outside, in its own lean repo — `automations/` holds the map.
+
 - **onboard** — installs the owner into their OS. Runs the setup interview
   once, live, in one conversation; its guardrail keeps it from ever
   running twice.

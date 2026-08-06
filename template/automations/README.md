@@ -14,7 +14,9 @@ Two things worth knowing:
 - **The code may live elsewhere.** Bigger automations that run in the cloud
   get their own small, clearly-labeled repo so runs stay fast and lean. The
   ABOUT.md always says where. This folder is the map; the machinery can sit
-  in another building.
+  in another building. Scripts are reserved for automations that genuinely
+  need them — prompt-only beats prompt-plus-script whenever language can do
+  the job.
 - **Every automation climbs a trust ladder.** It starts as a **beta**
   (a person checks every run), gets **proven** (it passes this business's
   custom quality checks consistently), and only then runs **automated**.
