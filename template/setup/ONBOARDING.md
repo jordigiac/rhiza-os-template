@@ -41,6 +41,10 @@ session starting here reads this block, greets the owner back warmly —
 continues. Never restart a finished part; never make them repeat
 themselves.
 
+**A tick means it's written.** Never tick a box for something that only
+happened in conversation — the box is a claim about what's on disk, and
+the next session believes it completely.
+
 ## Part 0 — The machine (before any questions)
 
 The owner never touches a terminal — you run every command; they watch.
@@ -66,10 +70,11 @@ the work, takes a few minutes." Then:
    installed the same way. You run it, you say what you did in one line,
    and the owner is never sent to a download page.
 6. **The surface.** Note which window this is — Claude Desktop, VS Code,
-   Cowork — and record it in owner-profile.md. If it's Cowork: teach the
-   one habit now ("when I ask to save something into your OS, say yes"),
-   and add a STATE.md row for a scheduled backup, because Cowork can't
-   run git itself.
+   Cowork — and **write it into owner-profile.md immediately, not later**;
+   Part 0 isn't ticked until that line exists on disk. If it's Cowork:
+   teach the one habit now ("when I ask to save something into your OS,
+   say yes"), and add a STATE.md row for a scheduled backup, because
+   Cowork can't run git itself.
 
 If a check can't be fixed: say so plainly, point at the setup sheet's
 contact line, write it into OPEN-QUESTIONS.md, and carry on. The
@@ -146,6 +151,13 @@ best part. Do not let the owner leave before it.
    headed sections, nothing invented. Set each "Last confirmed" to today.
    PERSONA.md and CONTRACT.md were written live in Part 2 — read them
    back and confirm they sound like the owner.
+   **No file ships raw.** Every file in knowledge/ gets opened at this
+   step, including ones this conversation never reached. A file with
+   nothing in it yet gets its brackets stripped, today's date, and one
+   honest line — "not captured yet; it's in Up next" — so the owner never
+   opens their own knowledge base and finds a fill-in-the-blank form
+   staring back. An untouched template file is a broken promise, not a
+   placeholder.
 2. Fill STATE.md: real work into Active, the rows above into Up next.
    Delete the EXAMPLE row.
 3. **The problem list:** `knowledge/problem-list.md` holds every painful
