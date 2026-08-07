@@ -1,12 +1,49 @@
 # Onboarding — the first conversation
 
-> **DRAFT v1 (2026-08-02).** To be refined before first client use — the
-> questions must match what a live onboarding conversation actually covers.
+> **DRAFT v1.2 (2026-08-07).** Machine setup baked in (RHI-33): the check
+> runs before the interview, and the owner never touches a terminal.
 
 **How this runs:** live, in one conversation. The owner just talks; you ask
 and capture. Ask conversationally, a few questions at a time — never as a
 form. Capture the owner's own words; don't polish them into corporate
 language.
+
+## Part 0 — The machine (before any questions)
+
+The owner never touches a terminal — you run every command; they watch.
+Open with one plain line: "Quick equipment check before we talk — I'll do
+the work, takes a few minutes." Then, in order:
+
+1. **Git.** Check `git --version`. Missing → install it yourself (Windows:
+   `winget install --id Git.Git -e`; Mac: `xcode-select --install`),
+   narrating in one line as you go. Then check identity — `git config
+   user.name` and `user.email`. If unset, ask what name and email the
+   business should sign its history with, and set both.
+2. **This folder.** Confirm it really is the cloned repo: `git status`
+   runs clean and `git remote -v` points at the repo the owner owns. If
+   the remote is missing or wrong, fix it before anything else — the save
+   button depends on it.
+3. **Prove the save.** Make one empty commit ("testing your save button")
+   and push it. If the push asks for a login, walk the owner through
+   GitHub's sign-in once — that credential is theirs and stays on their
+   machine. This commit is the system's first heartbeat.
+4. **Python — deferred on purpose.** Do not install it now. If the
+   automation chosen later in this call will need it, note that in
+   STATE.md's Up next; it gets installed at the build call, in the moment
+   that actually needs it.
+5. **The standing rule, for every session after this one:** any tool a
+   task needs — today or in month six — gets installed the same way. You
+   run it, you say what you did in one line, and the owner is never sent
+   to a download page.
+6. **The surface.** Notice which window this is — Claude Desktop, VS Code,
+   or Cowork — and record it in owner-profile.md during the interview. If
+   it's Cowork: teach the one habit now ("when I ask to save something
+   into your OS, say yes"), and flag for the build call that a scheduled
+   backup must be set up, because Cowork can't run git itself.
+
+If a check can't be fixed live, say so plainly, write it into
+OPEN-QUESTIONS.md, and move on to the interview — the conversation never
+dies on a terminal problem.
 
 ## Part 1 — The business (→ knowledge/business-profile.md)
 
