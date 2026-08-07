@@ -27,13 +27,14 @@ can continue.
 - [ ] Part 1 — the business
 - [ ] Part 2 — the owner, the persona, the contract
 - [ ] ★ Minimum viable install reached (declared out loud)
+- [ ] Part 2½ — calendar · context test · the booking offer
 - [ ] Part 3 — the voice
 - [ ] Part 4 — the priorities
 - [ ] Part 5 — the tools, names only
-- [ ] Part 5½ — connections (OAuth only, calendar first)
+- [ ] Part 5½ — the rest of the connections (OAuth only)
 - [ ] [SLOT] homework sheets
 - [ ] Part 6 — the workflows, one build picked
-- [ ] The close — context test · booking offer · generation rules
+- [ ] The close — generation rules
 
 **Resuming:** while this folder exists, onboarding is in progress. Any
 session that starts here reads this block, greets the owner back warmly —
@@ -114,6 +115,34 @@ system works. It knows the business, it knows you, and it has its laws.
 Everything after this makes it sharper. Stop anytime — I'll pick you right
 back up." Tick the Progress box.
 
+## Part 2½ — The calendar, and the booking (right here, on purpose)
+
+*(Moved forward from the connections part after sandbox run 3: a rushed
+owner ran out of time before ever reaching it, so the whole wow moment
+died on the clock. It lives here now because it takes two minutes, the
+system has just earned the ask, and everything downstream depends on the
+working call being on a calendar.)*
+
+1. **Connect the calendar** — the one connector that happens now. Walk it
+   click by click (settings → connectors → sign in), OAuth only, nothing
+   pasted. Confirm it with one tiny real read: "your next three events
+   are…" If it won't connect, don't fight it — note it, use the escape
+   hatch, and carry on; the booking can happen by message instead.
+2. **The context test:** "Ask me something about your business — anything
+   you'd actually want to know." A generic answer means something's
+   missing and you say so; an answer that knows their business is the
+   proof this thing is real. Never skip it — this is the immediate-value
+   beat.
+3. **The booking — offered, never required:** "Want to book your working
+   call right now, from in here? That's where [BUILDER NAME] reviews
+   everything and the first build happens live." If they'd rather not
+   yet: "just ask me any time and I'll book it," and the contact line
+   stands. Warm either way, no pressure, no second ask.
+
+Then carry on below — and if the owner leaves right here, they leave with
+a working system, a proof moment, and a date. That's a complete install
+in the only sense that matters.
+
 ## Part 3 — The voice (→ knowledge/voice.md)
 
 7. Paste one or two things you've written recently — an email, a post, a
@@ -134,15 +163,13 @@ back up." Tick the Progress box.
     email and messages, tasks, meetings/notes, and any knowledge stores.
     Just names — wiring comes next.
 
-## Part 5½ — Connections (OAuth only — calendar first, always)
+## Part 5½ — The rest of the connections (OAuth only)
 
-Now wire the click-in connectors, together, click by click. **OAuth only:
-the owner signs in; no keys, no secrets, nothing pasted — ever, in this
-part.**
+The calendar is already connected (Part 2½). Now wire whatever else is
+click-in, together, click by click. **OAuth only: the owner signs in; no
+keys, no secrets, nothing pasted — ever, in this part.**
 
-- **Calendar first, always** — it's how the working call gets booked from
-  inside the OS at the close.
-- Then whichever native Claude connectors match the tools they just named
+- Whichever native Claude connectors match the tools they just named
   (email, drive, Notion, and so on). Narrate every click plainly:
   settings, connectors, sign in, done. Confirm each one works with one
   tiny real read ("your next three calendar events are…").
@@ -175,18 +202,17 @@ it's worth × how easy it is to automate. **Pick one** — the one that gets
 the owner excited and pays back fastest. It gets written into STATE.md's
 "Up next" section, to be built at the working call.
 
-## The close (in order)
+## The close
 
-1. **The context test.** "Ask me something about your business — anything
-   you'd actually want to know." A generic answer means onboarding isn't
-   done; an answer that knows their business is the proof moment. This is
-   the immediate-value beat — never skip it.
-2. **The booking — offered, never required.** The calendar is connected,
-   so offer it: "Want to book your working call right now, from in here?
-   That's where [BUILDER NAME] reviews everything this conversation built
-   and the first build happens live." If they'd rather not yet: "book
-   later by just asking me," and the contact line stands. Warm either way.
-3. **Generation rules:**
+**If the booking didn't happen at Part 2½** — the calendar wouldn't
+connect, or they weren't ready — offer it once more here, same warmth,
+same no-pressure. Otherwise it's already done; don't ask twice.
+
+**Generation rules.** Rules 1–8 are safe to run at the end of ANY sitting
+— an owner who leaves after Part 2½ should still have written files, a
+stamped install, and their map. Only rule 9 waits for every Progress box
+to be ticked.
+
    1. Write the answers into the four knowledge/ files — owner's words,
       headed sections, nothing invented. Set each "Last confirmed" line
       to today. PERSONA.md and CONTRACT.md were written live during
