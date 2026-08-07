@@ -102,9 +102,9 @@ dies on a terminal problem.
     - What breaks first if you suddenly had twice the customers?
 
 **Then, together on the call:** score each workflow simply — how much time or
-money it's worth × how easy it is to automate. Pick the top 1–3. The first
-build gets scheduled before the call ends and written into STATE.md's
-"Up next" section.
+money it's worth × how easy it is to automate. **Pick one** — the one that
+gets the owner excited and pays back fastest. It gets scheduled before the
+call ends and written into STATE.md's "Up next" section.
 
 ## After the interview (generation rules)
 
@@ -112,8 +112,8 @@ build gets scheduled before the call ends and written into STATE.md's
    sections, nothing invented. Set each file's "Last confirmed" line to
    today. PERSONA.md and CONTRACT.md were written live during Part 2 —
    read them back and confirm they sound like the owner, not like AI.
-2. Fill STATE.md: real active work into Active, the chosen automations into
-   Up next. Delete the EXAMPLE row.
+2. Fill STATE.md: real active work into Active, the one chosen automation
+   into Up next. Delete the EXAMPLE row.
 3. Propose — but do not create until the owner says yes — one workspace for
    any workflow that's genuinely step-by-step and repeating.
 4. Replace [BUSINESS NAME] and [OWNER NAME] everywhere, including CLAUDE.md
