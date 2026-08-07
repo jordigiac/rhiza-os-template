@@ -14,6 +14,12 @@ How these work, in plain terms:
 - **OAuth over pasted secrets, wherever possible.** A native Claude
   connector first (sign in once, revoke anytime, no keys in the folder),
   an MCP server second, an API key in `.env` only when neither exists.
+- **Three rungs, three moments (async onboarding, 2026-08-07).** Native
+  click-in connectors — calendar first — get wired by the owner during
+  onboarding, click by click, OAuth only. Keyed connections get *prepped*
+  at onboarding (a stub file here naming the tool and what it will do)
+  and wired in the first twenty minutes of the working call, live with
+  the builder. Engineered connections are the builder's entirely.
 - **Restricted on purpose.** Wherever possible, the OS gets its own limited
   account per tool — it can never act as you. Read-only until there's a
   reason to trust it with more.
