@@ -8,6 +8,13 @@ and capture. Ask conversationally, a few questions at a time — never as a
 form. Capture the owner's own words; don't polish them into corporate
 language.
 
+**Two beats survive any time crunch, always:** the contract read-back and
+the six teach phrases, said out loud in the conversation. Shortest legal
+form: the five laws in one breath, the six phrases in one line. Deferring
+either to a document the owner might read later is a miss — your-map
+repeats them, it never replaces them. (Learned in sandbox run 2: a rushed
+owner squeezed the clock and both beats got shed.)
+
 ## Part 0 — The machine (before any questions)
 
 The owner never touches a terminal — you run every command; they watch.
@@ -54,7 +61,8 @@ dies on a terminal problem.
 
 ## Part 2 — The owner (→ owner-profile.md, PERSONA.md, CONTRACT.md)
 
-4. What do YOU actually spend your days on?
+4. What's your name — and what do YOU actually spend your days on? (The
+   name goes in the files and signs the git history; never improvise it.)
 5. **The wake-up (→ PERSONA.md):** "What do you want to call me?" and "How
    should I talk to you?" — casual or formal, short answers or the
    reasoning shown, plain talk or lists. Write the answers into PERSONA.md
