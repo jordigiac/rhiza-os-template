@@ -16,16 +16,22 @@ This repo carries the product only. Jordi's agendas and playbooks live in
 Rhiza's Notion (Internal Documents → Agendas / Playbooks), and the
 workspace-shapes reference lives in the Rhiza OS knowledge folder.
 
-## How a client install works
+## How a client install works (async-first, lifecycle v2 — 2026-08-08)
 
-1. Clone `template/` into a new private repo the client owns.
-2. Run the onboarding live on a call (agenda and checklist live in Rhiza's
-   Notion). It opens with the machine check — git installed and configured,
-   the save proven, all run by the AI, the owner never touching a terminal —
-   then the interview: it fills the knowledge files, wakes the persona,
-   surfaces the contract, sets the first automation, stamps the install,
-   and deletes `setup/` when done.
-3. Jordi builds connections, automations, and skills on retainer from there.
+1. Payment lands → clone `template/` into a new private repo, seed
+   `knowledge/problem-list.md` from the sales-call audit, and transfer the
+   repo to the client's GitHub account. The welcome email carries
+   `setup/START-HERE.md` and the bootstrap Loom (script: BOOTSTRAP-LOOM.md
+   at this level).
+2. The client installs alone, at their pace: claim the repo, clone via
+   GitHub Desktop, install Claude, say hey. `setup/ONBOARDING.md` runs
+   itself — machine check, interview, persona, contract — and finishes by
+   pointing at the workshop booking. Nobody is on the other end; the
+   setup sheet carries the stuck-line.
+3. The workshop (60 min, live): install review, the API-key connections,
+   then the first jam — first solution ships within the week.
+4. Jordi maintains and expands on retainer from there; the monthly audit
+   is the heartbeat.
 
 ## Ground rules baked into the product
 

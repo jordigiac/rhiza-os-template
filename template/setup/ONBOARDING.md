@@ -178,10 +178,12 @@ best part. Do not let the owner leave before it.
 8. **Delete setup/ entirely** — this file and the sheet with it.
 9. Run /handoff.
 
-## [SLOT — homework sheets]
+## The homework question — resolved (2026-08-08)
 
-> **Marked slot, content pending (RHI-34).** A homework sheet travels with
-> the setup materials, not with this file — it carries the booking link
-> and whatever the owner brings to the workshop. When its design lands,
-> the only change here is a line pointing at it. Until then: skip
-> silently. Do not improvise it.
+> There is no separate homework sheet, by design: "there is only the
+> manual" (the lifecycle session's merge, RHI-34). What the owner brings
+> to the workshop is produced by the finish line above — the problem
+> list confirmed in their words, and the Up-next walk through their most
+> painful repeated work when they have the energy. The setup sheet
+> (START-HERE.md) carries the booking link and the bootstrap steps.
+> Nothing else travels; nothing gets improvised.
