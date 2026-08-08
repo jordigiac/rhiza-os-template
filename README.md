@@ -21,8 +21,9 @@ workspace-shapes reference lives in the Rhiza OS knowledge folder.
 1. Payment lands → clone `template/` into a new private repo, seed
    `knowledge/problem-list.md` from the sales-call audit, and transfer the
    repo to the client's GitHub account. The welcome email carries
-   `setup/START-HERE.md` and the bootstrap Loom (script: BOOTSTRAP-LOOM.md
-   at this level).
+   `setup/START-HERE.md` and the bootstrap Loom (production materials —
+   the Loom script and welcome emails — live in the Rhiza OS
+   `workspaces/` folder, not in this repo).
 2. The client installs alone, at their pace: claim the repo, clone via
    GitHub Desktop, install Claude, say hey. `setup/ONBOARDING.md` runs
    itself — machine check, interview, persona, contract — and finishes by
