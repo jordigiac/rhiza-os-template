@@ -1,8 +1,10 @@
-# audits/ — the monthly health reports
+# audits/ — the health reports
 
-One dated report lands here after every monthly maintenance pass: what was
-checked, what was fixed, what changed, and how the system scored. Written by
-the audit skill.
+One dated report per audit run — the monthly maintenance pass, or any time
+the owner asks: what was checked, what needs fixing, what's worth building
+or cutting, and how the system scored. Written by the audit skill; fixes
+the owner approves get done right after the report lands.
 
-Reports are never edited after the fact. Read them newest first; the trend
+Reports are never edited after the fact, with one exception: fix-list
+boxes get ticked, dated, as fixes land. Read them newest first; the trend
 across months is the proof the system is being cared for.
