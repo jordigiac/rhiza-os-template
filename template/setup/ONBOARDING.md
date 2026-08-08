@@ -173,7 +173,9 @@ best part. Do not let the owner leave before it.
 7. Write `knowledge/your-map.md`, five beats: (1) welcome, one line;
    (2) talk to it — what it knows about them, and the six teach phrases;
    (3) where things live, in their actual contents, not generic labels;
-   (4) your one command, /handoff; (5) what it never does, and what's
+   (4) your save button, /handoff — and the other two that are yours,
+   /audit (the health check) and /checkup (keeps its facts true);
+   (5) what it never does, and what's
    waiting in Up next. Their register, no builder's name.
 8. **Delete setup/ entirely** — this file and the sheet with it.
 9. **Move the owner home (the bootstrap case).** If this conversation

@@ -18,9 +18,13 @@ workspace-shapes reference lives in the Rhiza OS knowledge folder.
 
 ## How a client install works (async-first, lifecycle v2 — 2026-08-08)
 
-1. Payment lands → clone `template/` into a new private repo, seed
+1. Payment lands → clone `template/` into a new private repo — **named
+   after the business** (`kept-detail-os`, never `client-repo`; the folder
+   name is what the owner sees in Documents forever). Seed
    `knowledge/problem-list.md` from the sales-call audit, and transfer the
-   repo to the client's GitHub account. The welcome email carries
+   repo to the client's GitHub account. (If provisioning is ever scripted
+   with bare repos: set `HEAD` to `main` — `git symbolic-ref HEAD
+   refs/heads/main` — or clones land silently empty.) The welcome email carries
    `setup/START-HERE.md` and the bootstrap Loom (production materials —
    the Loom script and welcome emails — live in the Rhiza OS
    `workspaces/` folder, not in this repo).

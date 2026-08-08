@@ -41,8 +41,9 @@ can go down the line.
   contradictions between files, the same fact written in two places,
   leftover [BRACKETED] placeholders. Files and folders named `_template`
   keep their brackets by design; skip them.
-- Bloat check: CLAUDE.md over 60 lines, any knowledge file that has grown
-  crowded, any workspace contract over 80 lines.
+- Bloat check: CLAUDE.md over 90 lines (it ships at ~85 — growth is the
+  smell, not the baseline), any knowledge file that has grown crowded,
+  any workspace contract over 80 lines.
 
 ## Pass 2 — machinery (does everything still run?)
 
