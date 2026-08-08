@@ -176,7 +176,15 @@ best part. Do not let the owner leave before it.
    (4) your one command, /handoff; (5) what it never does, and what's
    waiting in Up next. Their register, no builder's name.
 8. **Delete setup/ entirely** — this file and the sheet with it.
-9. Run /handoff.
+9. **Move the owner home (the bootstrap case).** If this conversation
+   started outside the system's folder — the owner opened Documents and
+   pasted the setup line — run `code <the system's folder>` so VS Code
+   opens it in its own window, and say plainly: "One last thing: a new
+   window just opened on your system's folder. That window is home now —
+   talk to me there from today on, and VS Code will remember it." Without
+   this, tomorrow's "hey" lands in Documents, where the system can't hear
+   them.
+10. Run /handoff.
 
 ## The homework question — resolved (2026-08-08)
 

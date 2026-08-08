@@ -39,9 +39,16 @@ looks like: *"Set up my operating system: [link to your repository]."*
 Claude takes it from there: it pulls your system onto this computer,
 opens it, and your system introduces itself. It asks about your business
 and runs every technical step on its own. You never touch a terminal.
+If a GitHub or Claude sign-in window pops up along the way, just sign in
+— that's normal, and it only happens the first time.
 
 **About twenty minutes gets you a working system.** You can stop any
 time and pick up later. It remembers exactly where you were.
+
+**When setup finishes, a new VS Code window opens on your business's own
+folder. That window is home from then on** — every conversation happens
+there. If you ever close everything: File → Open Folder → your business
+folder (it's in Documents), and you're back.
 
 ## Step 4 — Book your workshop
 
