@@ -19,21 +19,26 @@ you. It's yours, on your account, from day one.
 
 ## Step 2 — Get Claude
 
-Claude is the engine your system runs on.
+Claude is the engine your system runs on. The video makes this step easy;
+follow along with it.
 
 1. Create a Claude account at claude.ai and pick the **Pro plan**
    ($20/month, yours directly with Claude, cancel anytime).
-2. Install the Claude desktop app from claude.ai/download. Mac or
-   Windows, either is fine. Sign in.
+2. Install VS Code from code.visualstudio.com. Mac or Windows, either is
+   fine. It looks technical; you'll only ever use one panel of it.
+3. Open VS Code, click the Extensions icon on the left (four squares),
+   search "Claude Code," install it, and sign in with your Claude
+   account.
 
 ## Step 3 — Say hey
 
-Open Claude and paste the one line from your welcome email. It looks
-like: *"Set up my operating system: [link to your repository]."*
+In VS Code: File → Open Folder → pick your Documents folder. Then open
+the Claude panel and paste the one line from your welcome email. It
+looks like: *"Set up my operating system: [link to your repository]."*
 
-Claude takes it from there: it puts your system on this computer, opens
-it, and your system introduces itself. It asks about your business and
-runs every technical step on its own. You never touch a terminal.
+Claude takes it from there: it pulls your system onto this computer,
+opens it, and your system introduces itself. It asks about your business
+and runs every technical step on its own. You never touch a terminal.
 
 **About twenty minutes gets you a working system.** You can stop any
 time and pick up later. It remembers exactly where you were.

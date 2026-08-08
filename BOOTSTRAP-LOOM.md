@@ -36,22 +36,29 @@ Say: "GitHub emails you an invitation. One click. See the name at the
 top? That's your account. From this second the system belongs to you,
 not me."
 
-**Shot 4 — the Claude account and app (90 seconds).**
-Screen: claude.ai → sign up → pick Pro → claude.ai/download → install →
-sign in.
+**Shot 4 — the Claude account and VS Code (2 minutes — the shot the video
+exists for; go slow).**
+Screen: claude.ai → sign up → pick Pro. Then code.visualstudio.com →
+install → open VS Code → Extensions icon → search "Claude Code" →
+install → sign in.
 Say: "Claude is the engine. The Pro plan is twenty a month, between you
-and Claude directly, cancel anytime. Then the desktop app: download,
-install, sign in. If anything snags here, that's a text-me moment, not a
+and Claude directly, cancel anytime. Then VS Code: this is the window
+your system lives in. It looks like a developer tool, and honestly it is
+one, but you'll only ever use this one panel. Watch me do it: download,
+install, then this icon on the left, search Claude Code, install, sign
+in. If anything snags here, that's a text-me moment, not a
 figure-it-out moment."
 
 **Shot 5 — the magic line (60 seconds).**
-Screen: Claude open → paste the setup line from the welcome email → Claude
-working → the system's first reply.
-Say: "Now the good part. Your welcome email has one line in it. Paste it
-into Claude, press enter, and watch: Claude pulls your system onto this
-computer and hands you over to it. From here you're not following steps
-anymore, you're just talking. About twenty minutes from now it knows
-your business. I'll see you at the workshop."
+Screen: VS Code → File → Open Folder → Documents → the Claude panel →
+paste the setup line from the welcome email → Claude working → the
+system's first reply.
+Say: "Now the good part. Open your Documents folder, open the Claude
+panel, and paste the one line from your welcome email. Press enter and
+watch: Claude pulls your system onto this computer, opens it, and hands
+you over to it. From here you're not following steps anymore, you're
+just talking. About twenty minutes from now it knows your business.
+I'll see you at the workshop."
 
 ## After recording
 

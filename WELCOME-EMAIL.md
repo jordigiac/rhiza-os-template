@@ -3,8 +3,10 @@
 *(Two messages, because the repo link only exists after the client shares
 their GitHub username. Copy is Jordi's: this is the container. Fill
 [LOOM LINK] after recording; [NAME], [THEIR-USERNAME] and [REPO-NAME] per
-client. The setup sheet — template/setup/START-HERE.md — goes attached to
-email 1, exported clean.)*
+client. The setup sheet ships as ONE master Google Doc — Jordi's call,
+2026-08-08 — pasted once from template/setup/START-HERE.md and linked as
+[SETUP DOC LINK] in email 1. The doc is generic; everything personal
+lives in the emails.)*
 
 ## Email 1 — sends the moment payment lands
 
@@ -14,8 +16,9 @@ Hey [NAME],
 
 Payment landed. Thank you. Let's get you set up.
 
-Attached is your setup sheet: four steps, about ten minutes. This video
-walks through every one of them on a real screen first: [LOOM LINK].
+Here's your setup sheet: [SETUP DOC LINK]. Four steps, about ten
+minutes. And this video walks through every one of them on a real screen
+first: [LOOM LINK].
 
 One thing I need from you: your GitHub username. Step 1 of the sheet
 covers making the account if you don't have one (free, two minutes, all
