@@ -1,30 +1,44 @@
 ---
 name: onboard
-description: Installs the client into their OS. Runs the setup interview live on a call, writes their answers into knowledge/, schedules the first automation, and retires setup/. Use on first launch when setup/ONBOARDING.md exists, or when someone asks to get set up.
+description: Installs the owner into their OS — the self-paced setup conversation. Async by design; the owner does it alone, stopping and resuming freely, until the finish line where setup/ deletes itself. Use on first launch while setup/ONBOARDING.md exists, when someone asks to get set up, or to resume any session that starts while setup/ is still there.
 ---
 
 # Onboard — turn the blank template into their system
 
-Runs once, live, in one conversation. The owner just talks; you ask and capture.
+Async, self-paced, nobody on the other end. The owner talks; you ask and
+capture. It may span many sessions, and it ends once, at the finish line.
 
 ## Steps
 
-1. Open setup/ONBOARDING.md and follow it exactly. It holds the interview
-   questions and the generation rules. Do not improvise new questions or skip
-   the workflow section - that is where the first automation comes from.
+1. Open setup/ONBOARDING.md and follow it exactly. The progress block at
+   the top IS the resume state — read it before anything else. Fresh
+   start: begin at Part 0. Ticked boxes: greet the owner back warmly
+   ("picking up where we left off, you were telling me about X") and
+   continue. Never restart a finished part; never make them repeat
+   themselves.
 2. Conduct, not survey: ask a few questions at a time, conversationally.
    Capture the owner's words as spoken. Do not polish them into corporate
    language, and do not fill in anything they did not say.
-3. When the interview ends, run the generation rules at the bottom of
-   setup/ONBOARDING.md, in order, all of them.
-4. Before finishing, prove it worked: have the owner ask their new OS one
-   real question about their business, live on the call.
+3. Two beats survive any time crunch, said out loud, never deferred to a
+   document: the contract read-back and the six teach phrases.
+4. The finish line runs in one stretch — do not let the owner leave
+   before it: the context test (they ask their new OS one real question
+   about their business, and a generic answer means something is missing),
+   completion declared plainly, then the generation rules at the bottom of
+   setup/ONBOARDING.md, in order, all of them. setup/ deletes there.
+   Whatever wasn't reached becomes ordinary STATE.md rows in Up next —
+   never homework, never a debt.
 
 ## Guardrails
 
-- This skill never runs twice. If setup/ is already gone, say the system is
-  already set up and stop.
+- While setup/ exists, onboarding is unfinished and resumes. Once setup/
+  is gone, it never runs again — say the system is already set up and
+  stop.
+- A tick in the progress block is a claim about what's on disk. Never
+  tick a box for something that only happened in conversation.
 - No placeholders left behind. If any [BRACKETED] text remains anywhere,
   ask for the missing piece before closing.
-- The owner's words are the content. Empty sections stay empty rather than
-  getting invented filler.
+- The owner's words are the content. Empty sections stay empty rather
+  than getting invented filler.
+- Never name the person who built this. The setup sheet is the only place
+  a builder appears, and it deletes with setup/.

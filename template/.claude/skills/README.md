@@ -11,9 +11,9 @@ a skill; if nothing fires automatically, its SKILL.md gets read and
 followed), so the OS survives interface changes. Only automation code lives
 outside, in its own lean repo — `automations/` holds the map.
 
-- **onboard** — installs the owner into their OS. Runs the setup interview
-  once, live, in one conversation; its guardrail keeps it from ever
-  running twice.
+- **onboard** — installs the owner into their OS: the self-paced setup
+  conversation, resumable across sessions, done at the finish line where
+  setup/ deletes itself. Once setup/ is gone it never runs again.
 - **handoff** — the save button, and the owner's one command. Closes a
   session with nothing lost: state updated, decisions logged, stated facts
   filed, committed.
