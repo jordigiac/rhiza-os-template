@@ -70,8 +70,12 @@ can go down the line.
   or used. Flag anything unused or broken. Skills hygiene: critical rules
   sit above the fold in each SKILL.md (compaction truncates from the
   bottom), and no skill file has grown past roughly 5,000 words.
-- Connections: each reference file names a real .env key in .env.example
-  terms, and describes limits that still match how it is used.
+- Connections: a file here is either a **stub** (named at onboarding, says
+  plainly it isn't wired yet) or **live** (names a real key or sign-in and
+  describes limits that still match how it's used). Stubs are expected and
+  are not findings; a stub that has sat unwired for months is worth one
+  question, not a fix. A file claiming to be live that names nothing real
+  is a finding.
 
 ## Pass 3 — evolution (does the system still fit the business?)
 
@@ -141,18 +145,26 @@ business on top of that floor. For each C: 0–8 barely above the floor,
 last report.
 
 - Context: the owner's actual facts, filled at onboarding and kept current.
-  The only category an install day can raise.
-- Connections: tools genuinely wired — a connection file naming a real key
-  that works. The README and _template are the floor: 0.
+  The category an install day genuinely raises.
+- Connections: tools genuinely wired. A stub written at onboarding that
+  names a tool and says "not wired yet" is the floor: 0. A connection that
+  actually reaches the tool scores.
 - Capabilities: custom skills and workspaces built for this business and
   actually used. The skills that ship with the template are the floor: 0,
-  in every install, always.
-- Cadence: things that actually run on their own. Nothing scheduled = 0.
+  in every install, always. **The one launch workspace onboarding starts is
+  also floor: 0** — it ships with the setup conversation, so it is not
+  something this business built. A second one, made because real work
+  needed it, counts.
+- Cadence: things that actually run on their own. **The hourly backup is
+  installed during onboarding and is real, so it scores** — a few points,
+  not many, because every install has it. Nothing else scheduled and no
+  working backup = 0.
 
-Sanity check before writing the score: an onboarded but unwired install is
-Context in the teens or low 20s and **0 / 0 / 0** elsewhere — total ≤ 25.
-If you scored an unwired install above that, you graded the box, not the
-business. Start over.
+Sanity check before writing the score: a fresh install that finished
+onboarding and wired nothing scores Context in the teens or low 20s, a few
+Cadence points for the backup, and **0 / 0** for Connections and
+Capabilities. Total around 25, give or take the backup. If you scored it
+much above that, you graded the box rather than the business. Start over.
 
 ## Report format
 

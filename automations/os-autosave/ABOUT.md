@@ -33,10 +33,21 @@ never sends anything, never touches a connected tool.
 
 ## What "working" looks like
 
-The repo on GitHub shows commits called `autosave` with recent timestamps.
-If the newest commit in the repo is more than a day old and the owner has
-been working, the job has died quietly. The monthly audit checks exactly
-this.
+The repo on GitHub shows commits called `autosave` with recent timestamps,
+and on Windows the task's Last Result reads 0. If the newest commit is more
+than a day old and the owner has been working, the job has died. The monthly
+audit checks exactly this.
+
+**It cannot fail silently any more, and that was deliberate work.** Every
+step is chained so a failure stops the chain and gets reported. An earlier
+version ran each step regardless of the last, which meant a wrong folder
+path produced a healthy-looking scheduled task that had never saved
+anything.
+
+**It does not pull, on purpose.** An unattended pull can hit a conflict, and
+a conflict would leave the folder stuck mid-merge with every later hour
+failing too. Saving is this job's whole responsibility. The handoff skill
+does the careful pull, and stops to ask when two copies disagree.
 
 ## Three commit types, so the history reads clearly
 

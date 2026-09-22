@@ -1,0 +1,21 @@
+Rhiza OS Template
+version: 2026.09-v4
+released: 2026-09-22
+
+What changed in this version, in plain words:
+
+- The system saves itself every hour, set up during onboarding and proven
+  in the same minute rather than an hour later.
+- knowledge/core/ holds what the business is, sells, serves and sounds
+  like. Every draft is built from it, and it changes only on the owner's
+  word.
+- New skills: pickup (opens a session), write-like-me (drafts in the
+  owner's voice from real samples of their writing).
+- The handoff close now files facts, takes a journal note, sweeps
+  corrections, and saves safely instead of just committing.
+- A quality bar that runs before anything reaches a person, rather than
+  sitting in a folder nobody opens.
+- Onboarding walks the business room by room and collects a voice bank.
+
+Your OS records this version number in decisions.md when it installs, so
+you can always tell which template you started from.

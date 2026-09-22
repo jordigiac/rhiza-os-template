@@ -289,8 +289,9 @@ best part. Do not let the owner leave before it.
 5. Replace [BUSINESS NAME] and [OWNER NAME] everywhere, including
    CLAUDE.md, AGENTS.md and CONTRACT.md's first line. Keep CLAUDE.md and
    AGENTS.md identical.
-6. Check for leftover blanks. Read every file in `knowledge/`, plus
-   CLAUDE.md, AGENTS.md, CONTRACT.md, PERSONA.md and STATE.md, and look for
+6. Check for leftover blanks. Read every file in `knowledge/` and
+   `connections/`, plus CLAUDE.md, AGENTS.md, CONTRACT.md, PERSONA.md,
+   STATE.md and README.md, and look for
    square-bracket prompts that are still instructions to fill something in.
    Skip `_template` folders, skip `.claude/`, and ignore ordinary markdown
    links, which also use square brackets. Anything genuinely unfilled means
@@ -302,9 +303,11 @@ best part. Do not let the owner leave before it.
    register: what this folder is, what's in it, and how they talk to it.
    Keep one line of credit for where the template came from if they want
    it; ask.
-8. Stamp the install: append to decisions.md, "Installed from the Rhiza OS
-   template, [date], template commit [the short hash of the first commit
-   in this repo's history]."
+8. Stamp the install: read the `VERSION` file at the top of this folder
+   and append to decisions.md, "Installed from the Rhiza OS template,
+   [date], template version [the version line from VERSION]." Then delete
+   `VERSION`. It described the starting kit; from here the history is this
+   business's own.
 9. Write `knowledge/your-map.md`, five beats: (1) welcome, one line; (2)
    talk to it — what it knows about them, and the six teach phrases; (3)
    where things live, in their actual contents, not generic labels, and

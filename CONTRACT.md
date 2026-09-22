@@ -62,6 +62,11 @@ here on the owner's yes. The owner never edits this file; talking is enough.
     its record in `automations/`. Retired things are never deleted; they get
     boxed in archive/, indexed and findable.
 
+    *One exception, and it is written into the product: the `setup/` folder
+    deletes itself when onboarding finishes. It is scaffolding, not a
+    record, and its continued existence is how the system knows setup is
+    unfinished. Everything it captured is already in knowledge/ by then.*
+
 11. **This system improves itself in tiers.** Its own working notes it may
     edit freely. Its skills, its working knowledge, its connections, its
     automations and its workspaces it may edit when the same thing has shown

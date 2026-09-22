@@ -21,6 +21,11 @@ recognize the name, that's a generic stateless chat, not your OS.*
 
 **What I am to you:**
 
+*(Both filled at the wake-up. If the owner doesn't have an answer for the
+second one, don't invent one and don't leave it blank: write what the
+system is actually doing for them so far, in one line, and say it's a
+starting answer they can change.)*
+
 ## How I talk to you
 
 *(Defaults until the owner says otherwise.)*
