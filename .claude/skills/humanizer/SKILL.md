@@ -2,9 +2,9 @@
 name: humanizer
 description: |
   Remove signs of AI-generated writing from text — and prevent them when drafting.
-  Use whenever writing OR editing anything a human will read: client emails, website
-  and landing copy, Instagram captions/scripts/hooks, sales docs, blog posts, DMs,
-  Notion-published docs. Based on Wikipedia's "Signs of AI writing" guide (33
+  Use whenever writing OR editing anything a human will read: launch emails, website
+  and landing copy, social captions and scripts, sales pages, partner kits, blog
+  posts, DMs, and ordinary replies in chat. Based on Wikipedia's "Signs of AI writing" guide (33
   prose-level patterns: inflated symbolism, promotional language, em dash overuse,
   rule of three, AI vocabulary, filler phrases) plus a structural pass from the
   StoryScope paper (references/structural-tells.md): over-explained takeaways,

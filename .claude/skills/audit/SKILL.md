@@ -41,9 +41,20 @@ can go down the line.
   contradictions between files, the same fact written in two places,
   leftover [BRACKETED] placeholders. Files and folders named `_template`
   keep their brackets by design; skip them.
-- Bloat check: CLAUDE.md over 90 lines (it ships at ~85 — growth is the
-  smell, not the baseline), any knowledge file that has grown crowded,
-  any workspace contract over 80 lines.
+- Budget check on the always-loaded set (CLAUDE.md, AGENTS.md,
+  CONTRACT.md, PERSONA.md, STATE.md): no single file over 200 lines, and
+  the set under 600 together. These get read at the start of every
+  session, so every line in them is a tax on every conversation. Flag any
+  knowledge file that has grown crowded, and any workspace contract over
+  80 lines.
+- Contradiction sweep on the facts that change most: prices, offer names
+  and dates, who does what, client and partner status. Read
+  `knowledge/core/` against the working files and against recent
+  decisions. **A core file contradicted by a working file is the finding
+  that matters most** — it means drafts have been built on something
+  stale. Report it; never fix core here (contract law 9).
+- Dead-rule scan: a law in CONTRACT.md or a line in PERSONA.md that
+  nothing has exercised in months. Flag it as a question, not a cut.
 
 ## Pass 2 — machinery (does everything still run?)
 
@@ -51,8 +62,14 @@ can go down the line.
   ABOUT.md matches reality (schedule, location, ladder status), logs show
   clean runs since the last report, SETUP.md's verification step still
   passes as described.
+- **The backup's heartbeat:** read the date of the most recent commit. If
+  the hourly backup is installed and the newest commit is more than a day
+  old, the scheduled job has died quietly. That is a finding, not a note —
+  it means the system has stopped saving itself.
 - Each skill: present, listed in the skills README, and actually referenced
-  or used. Flag anything unused or broken.
+  or used. Flag anything unused or broken. Skills hygiene: critical rules
+  sit above the fold in each SKILL.md (compaction truncates from the
+  bottom), and no skill file has grown past roughly 5,000 words.
 - Connections: each reference file names a real .env key in .env.example
   terms, and describes limits that still match how it is used.
 
@@ -66,6 +83,9 @@ can go down the line.
   index, or folders that shrank back to a file.
 - Workspaces still earn their place: is the work still repeating?
 - STATE.md's Up next is current, with dates the owner can trust.
+- `evals/correction-ledger.md`: sightings that have waited about 30 days
+  without a second occurrence get proposed for retirement. A pattern that
+  never came back was noise.
 
 ## The growth scan — recommended to the owner, never built here
 
@@ -125,7 +145,8 @@ last report.
 - Connections: tools genuinely wired — a connection file naming a real key
   that works. The README and _template are the floor: 0.
 - Capabilities: custom skills and workspaces built for this business and
-  actually used. The five preloads are the floor: 0, in every install, always.
+  actually used. The skills that ship with the template are the floor: 0,
+  in every install, always.
 - Cadence: things that actually run on their own. Nothing scheduled = 0.
 
 Sanity check before writing the score: an onboarded but unwired install is
@@ -161,3 +182,12 @@ order. Ticks get dated as fixes land. Recommendations never appear here.
 Score honestly, against the anchors above, the same way every month. And
 write the whole report in plain business English — file paths are fine,
 jargon is not. If a sentence wouldn't land with a busy owner, rewrite it.
+
+## Headless mode — when nobody is in the chair
+
+If this audit runs on a schedule rather than in conversation, it measures
+and reports only. It fixes nothing, asks nothing, and builds nothing.
+Write the report into `audits/`, and leave the fix list untouched for the
+owner to walk through when they next open the folder. Also verify your own
+heartbeat while you are here: if the last scheduled run is missing from
+`audits/`, say so at the top of the report.

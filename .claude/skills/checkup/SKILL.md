@@ -36,3 +36,14 @@ wrong things. The checkup is the standing cure for drift.
 - Plain English, the owner's register. No file paths in the questions.
 - Skip claims confirmed within the last 30 days unless something
   load-bearing visibly changed.
+
+## The core gets renewed here
+
+`knowledge/core/` is the business's spine: the profile, the audience, the
+offers with their prices and links, the voice, the team and tools. Those
+files change only on the owner's word (contract law 9), which means the
+checkup is where their "Last confirmed" dates get renewed.
+
+Read the offers aloud, price and date included. A stale price in core is
+the single most expensive wrong fact this system can hold, because every
+draft is built from it.
