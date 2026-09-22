@@ -2,9 +2,10 @@
 
 Two files, both temporary:
 
-- `START-HERE.md` — the owner's sheet. Three steps, the workshop booking
-  link, and who to contact if they get stuck. The only place a builder's
-  name appears anywhere in this system.
+- `START-HERE.md` — the owner's sheet. Three steps: make your own private
+  copy, get Claude and open the folder, say hey. It also carries the link
+  for the paid setup calls and who to contact if they get stuck. The only
+  place a builder's name appears anywhere in this system.
 - `ONBOARDING.md` — the system's script for the conversation, and its own
   resume state while it's unfinished.
 

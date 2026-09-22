@@ -1,72 +1,82 @@
-# Start here — your operating system, in four steps
+# Start here — your operating system, in three steps
 
 This sheet is the only thing you follow by eye. Everything else is a
-conversation. Nothing here needs technical knowledge, and nothing you do
-can break anything. There's a short video walking through every step on a
-real screen: **[LOOM LINK]**. Watch it first and the whole thing is about
-ten minutes.
+conversation. Nothing here needs technical knowledge, and nothing you do can
+break anything.
 
-## Step 1 — Claim your system
+## Step 1 — Make your own copy
 
-Your operating system lives in a private repository that we transfer to
-you. It's yours, on your account, from day one.
+The template is public so anyone can take it. Your copy needs to be *yours*,
+private, so it can save your work.
 
-1. If you don't have a GitHub account: github.com, "Sign up," the free
-   plan. Two minutes, all in the browser.
-2. Reply to the welcome email with your GitHub username.
-3. GitHub will email you a transfer invitation shortly after. Open it and
-   click accept. That's the handover: the system now belongs to you.
+1. If you don't have a GitHub account: github.com, "Sign up," the free plan.
+   Two minutes, all in the browser.
+2. On the template's page, click the green **Use this template** button, then
+   **Create a new repository**.
+3. Name it after your business, choose **Private**, and create it.
 
-## Step 2 — Get Claude
+That's the handover. The system is now yours, on your account, and nobody
+else can see it.
 
-Claude is the engine your system runs on. The video makes this step easy;
-follow along with it.
+> **Why not just download it?** Because a copy you don't own can't save
+> itself back. Your system keeps everything it learns in this repository and
+> backs itself up there every hour. Use this template is what makes that
+> work.
 
-1. Create a Claude account at claude.ai and pick the **Pro plan**
-   ($20/month, yours directly with Claude, cancel anytime).
+## Step 2 — Get Claude and open the folder
+
+Claude is the engine your system runs on.
+
+1. Create an account at claude.ai. You need a paid plan that can run Claude
+   Code or the Claude desktop app; the current options are at
+   claude.com/pricing. That account is yours directly with Claude, not with
+   us.
 2. Install VS Code from code.visualstudio.com. Mac or Windows, either is
-   fine. It looks technical; you'll only ever use one panel of it.
-3. Open VS Code, click the Extensions icon on the left (four squares),
-   search "Claude Code," install it, and sign in with your Claude
-   account.
+   fine. It looks technical, and you'll only ever use one panel of it.
+3. Open VS Code, click the Extensions icon on the left (four squares), search
+   "Claude Code," install it, and sign in with your Claude account.
+
+> **Prefer the Claude desktop app?** That works too. Install Claude for
+> desktop, then point it at your folder instead. Everything below is the
+> same. VS Code is what we recommend because it handles the saving without
+> you thinking about it.
 
 ## Step 3 — Say hey
 
-In VS Code: File → Open Folder → pick your Documents folder. Then open
-the Claude panel and paste the one line from your welcome email. It
-looks like: *"Set up my operating system: [link to your repository]."*
+In VS Code: File → Open Folder → pick your Documents folder. Open the Claude
+panel and ask it to set up your operating system, pasting the link to the
+repository you made in step 1.
 
-Claude takes it from there: it pulls your system onto this computer,
-opens it, and your system introduces itself. It asks about your business
-and runs every technical step on its own. You never touch a terminal.
-If a GitHub or Claude sign-in window pops up along the way, just sign in
-— that's normal, and it only happens the first time.
+Claude takes it from there. It pulls your system onto this computer, opens
+it, and your system introduces itself. It asks about your business and runs
+every technical step on its own. You never touch a terminal. If a GitHub or
+Claude sign-in window pops up along the way, just sign in. That's normal, and
+it only happens the first time.
 
-**About twenty minutes gets you a working system.** You can stop any
-time and pick up later. It remembers exactly where you were.
+**About forty minutes gets you a working system.** You can stop any time and
+pick up later. It remembers exactly where you were.
 
-**When setup finishes, a new VS Code window opens on your business's own
-folder. That window is home from then on** — every conversation happens
-there. If you ever close everything: File → Open Folder → your business
-folder (it's in Documents), and you're back.
+**When setup finishes, a new window opens on your business's own folder. That
+window is home from then on**, and every conversation happens there. If you
+ever close everything: File → Open Folder → your business folder, which is in
+Documents, and you're back.
 
-## Step 4 — Book your workshop
+## If you'd rather not do it alone
 
-Once your system is up, it will offer to book the workshop: an hour,
-live, where we connect the tools that need real wiring and build the
-first thing your system does for you. If you'd rather book by hand:
+Your system can be set up with you on two thirty-minute calls: one to go
+through your setup together and teach you how to actually work with it, one
+to build your first real capability live on your business. $600.
 
-**cal.com/jordi-giacobbe/workshop**
-
-Book it whenever; sooner is better while everything is fresh.
+[LINK — added before publish]
 
 ## If you get stuck
 
-**Jordi — text 425-635-8708, or jordigiac08@gmail.com.** Same-day
-replies on weekdays. A stuck setup never dead-ends, and there is no such
-thing as a dumb question on this one.
+[CONTACT — added before publish]
+
+A stuck setup never dead-ends, and there is no such thing as a dumb question
+on this one.
 
 ---
 
-*This sheet retires once setup is done. After that, you just talk to
-your system.*
+*This sheet retires once setup is done. After that, you just talk to your
+system.*
