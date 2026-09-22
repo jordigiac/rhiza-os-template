@@ -21,17 +21,35 @@ If they vanish mid-sentence, nothing is lost.
 teach phrases, said out loud. Shortest legal form: the laws in one breath,
 six phrases in one line. Never deferred to a document.
 
-**Never name the person who built this.** The system belongs to the owner
-alone. If they're stuck on something technical, point at "the setup sheet
-you followed, it has contact details." That sheet is the only place a
-builder's name appears, and it deletes with this file.
+**The quality bar, during this one conversation.** Everything this system
+writes normally runs the Gate in `evals/` before a person sees it. Onboarding
+is the exception that proves it, because the owner is in the room saying every
+word. So the rule here is narrower and stricter: **write only what they said.**
+Read back anything exact before it lands, especially prices, dates and links.
+Anything you inferred gets marked as yours and asked about. Nothing in
+`knowledge/core/` may be a guess. From the moment `setup/` is deleted, the
+normal bar applies to everything.
+
+**Never name the person who built this** during the conversation. The system
+belongs to the owner alone. If they're stuck on something technical, point at
+"the setup sheet you followed, it has contact details." That sheet deletes
+with this file, and generation rule 7 clears the last of it out of the README.
+
+**When the owner's answer contradicts something that shipped in this
+template, the owner wins.** It will happen, probably more than once: a
+default in PERSONA.md, a line in a README, a rule they want stricter than
+ours. Change the shipped file to match them, say in one line that you did,
+and log it in decisions.md as their call. Never argue the template's side,
+and never quietly keep both.
 
 ## Progress — tick as parts complete; this block IS the resume state
 
 - [ ] Part 0 — the machine
 - [ ] Part 1 — the business (the core)
 - [ ] Part 2 — the owner, the voice, the persona, the contract
-- [ ] ★ THE FINISH LINE — context test · completion declared · files written
+- [ ] ★ Finish line 1 — the context test
+- [ ] ★ Finish line 2 — completion declared, first workspace started
+- [ ] ★ Finish line 3 — the generation rules, all of them, files written
 
 **Resuming:** while this folder exists, onboarding is unfinished. Any
 session starting here reads this block, greets the owner back warmly,
@@ -50,11 +68,19 @@ with one plain line: "Quick equipment check before we talk. I'll do the
 work, takes a few minutes." Then:
 
 1. **Their own copy.** Before anything else, confirm this folder is a repo
-   *they* own and can push to. If they used **Use this template** on GitHub
-   and cloned that, they're fine. If they cloned the public template
-   directly, they cannot save, and every backup from here on would fail
-   silently. Fix it now: have them make their own private copy on GitHub,
-   then point this folder at it. The setup sheet has the steps.
+   *they* own and can push to. If they cloned the public template directly,
+   they cannot save, and every backup from here on would fail silently.
+
+   The check, in order:
+   - `git remote -v`. If the URL is the public template's, that is the
+     problem, and say so plainly.
+   - `git push --dry-run`. Permission denied means the same thing.
+
+   The fix, which you walk them through: on GitHub, open the template and
+   click **Use this template → Create a new repository**, private, named
+   after their business. Copy its URL. Then here:
+   `git remote set-url origin <their new URL>` and push for real. Now they
+   own it.
 2. **Git.** Check `git --version`. Missing means install it yourself
    (Windows: `winget install --id Git.Git -e`; Mac: `xcode-select
    --install`), narrating in one line. Then check identity, `git config
@@ -67,20 +93,31 @@ work, takes a few minutes." Then:
    pushed. If it asks for a login, walk them through it once. That
    credential is theirs and stays on their machine. This is the system's
    first heartbeat, and everything after it assumes it worked.
-5. **Install the hourly backup.** Open `automations/os-autosave/SETUP.md`,
-   run the one command for their platform with their folder path, and
-   confirm the scheduled job exists. Tell them plainly what it does: every
-   hour, this folder saves itself to their GitHub, so nothing lives only on
-   this laptop. It never writes a file and never sends anything.
+5. **Install the hourly backup.** Open `automations/os-autosave/SETUP.md`
+   and run the block for their platform with their folder path. Then
+   **prove it, in the same minute**: run the job by hand as that file
+   describes, and confirm a commit called `autosave` actually landed on
+   their GitHub. The job existing is not the test. The commit is the test.
+
+   Tell them plainly what it does: every hour, this folder saves itself to
+   their GitHub, so nothing lives only on this laptop. It never writes a
+   file and never sends anything.
+
+   **If the commit does not land, say so and do not tick this box.** Write
+   it into OPEN-QUESTIONS.md and add a STATE.md row, then tell them in one
+   line: "your hourly backup isn't running yet, so closing properly is your
+   only save until we fix it." A backup believed in is worse than no backup
+   at all.
 6. **Python, deferred on purpose.** Don't install it now. If a later build
    needs it, it gets installed then.
 7. **The standing rule, forever after:** any tool a task needs gets
    installed the same way. You run it, you say what you did in one line,
    and the owner is never sent to a download page.
-8. **The surface.** Note which window this is, VS Code or the Claude
-   desktop app, and **write it into owner-profile.md immediately, not
+8. **The surface.** Note which window this actually is, whatever it is:
+   VS Code with Claude Code, the Claude desktop app, a terminal, something
+   else. Write it into owner-profile.md in plain words, **immediately, not
    later**. Part 0 isn't ticked until that line exists on disk. If this
-   surface can't run git itself, say so plainly and confirm the hourly
+   surface can't run git itself, say so plainly and make sure the hourly
    backup from step 5 is installed, because that becomes the only save.
 
 If a check can't be fixed: say so plainly, point at the setup sheet's
@@ -110,6 +147,13 @@ to, so it's worth getting them right."
    open right now, and when it runs next. Include the free things: the lead
    magnet, the challenge, the free training, and what each leads into.
    → `core/offers.md`
+
+   **Every date gets a year and every time gets a zone, out loud, read
+   back.** "October 14" is not a date, it is two dates. This file exists so
+   a wrong date never reaches a customer, and a date without a year is how
+   that happens. Ask for their time zone once here and write it into
+   `core/business-profile.md` too, because the system schedules against
+   it.
 5. **Who works with you, and who handles what?** Contractors count: the VA,
    the editor, the launch manager. Solo is a fine answer in one line.
    → `core/team-and-tools.md`
@@ -125,7 +169,11 @@ to, so it's worth getting them right."
    you've done together, and what they need from you when you launch. One
    file each in `knowledge/partners/`. If no, say so in one line and move on.
 8. **Your clients: do you want a roster in one file, or a file each?**
-   Either is fine. Start the shape they pick in `knowledge/clients/`.
+   Either is fine. If they pick a roster, make `clients/roster.md` with the
+   headings and any names they give you. If they pick a file each, don't
+   create empty files: write one line in `clients/README.md` saying that's
+   the shape, and make the first real file the next time they mention a
+   client by name.
 
 ## Part 2 — The owner, the voice, and the laws
 
@@ -185,16 +233,22 @@ best part. Do not let the owner leave before it.
    generic answer means something's missing and you say so. An answer that
    knows their business is the proof this thing is real. Never skip this.
    It's the moment the system stops being a folder.
+
+   *If the owner has gone quiet and can't ask, don't fake it and don't tick
+   the box. Ask yourself one hard question about their business instead,
+   answer it, write both into OPEN-QUESTIONS.md as "context test still
+   owed," and put it first in the next session.*
 2. **Declare it done, plainly:** "That's onboarding. Your system knows your
    business, knows you, and has its laws. It's working, right now. From
    here it just gets sharper the more you use it." Not "you've completed
    step 4 of 9." Done.
 3. **Start their first piece of real work.** "What's the next thing you're
-   launching or running, and when?" Make
-   `workspaces/launches/<name>/CONTEXT.md` with what they just said: the
-   offer, the date, who's involved, what has to go out. If nothing is
-   coming up, skip it without ceremony. Seeing one real piece of work in
-   the folder is what makes the rest make sense.
+   launching or running, and when?" Copy `workspaces/_template/RUN.md` to
+   `workspaces/launches/<name>/RUN.md` and fill what they just said: the
+   offer, the dates with their years, who's involved, the links, what has
+   to go out. Leave the rest as open questions. If nothing is coming up,
+   skip it without ceremony. Seeing one real piece of work in the folder is
+   what makes the rest make sense.
 4. **Mention the help, once, warmly.** "If you'd rather not build the rest
    of this alone, the setup sheet has a link to get it done with you on two
    short calls." Never book anything. Never chase. Say it once.
@@ -232,14 +286,26 @@ best part. Do not let the owner leave before it.
 4. **The problem list.** `knowledge/problem-list.md` holds every painful or
    repeated thing named so far, in their words. Nothing scored, nothing
    promised.
-5. Replace [BUSINESS NAME] and [OWNER NAME] everywhere, including CLAUDE.md
-   and AGENTS.md. Keep those two identical.
-6. Scan the folder for remaining [BRACKETED] placeholders, skipping
-   `_template` folders. Any left means ask.
-7. Stamp the install: append to decisions.md, "Installed from the Rhiza OS
-   template, [date], template version [the release name or date shown in
-   the repo]."
-8. Write `knowledge/your-map.md`, five beats: (1) welcome, one line; (2)
+5. Replace [BUSINESS NAME] and [OWNER NAME] everywhere, including
+   CLAUDE.md, AGENTS.md and CONTRACT.md's first line. Keep CLAUDE.md and
+   AGENTS.md identical.
+6. Check for leftover blanks. Read every file in `knowledge/`, plus
+   CLAUDE.md, AGENTS.md, CONTRACT.md, PERSONA.md and STATE.md, and look for
+   square-bracket prompts that are still instructions to fill something in.
+   Skip `_template` folders, skip `.claude/`, and ignore ordinary markdown
+   links, which also use square brackets. Anything genuinely unfilled means
+   ask, or write the honest "not captured yet" line from rule 1.
+7. **Rewrite README.md as theirs.** The one that shipped is the template's
+   shop window: it sells a setup service, links to the `setup/` folder
+   about to be deleted, and names the people who built this. None of that
+   belongs in their business's repo. Replace it with a short one, in their
+   register: what this folder is, what's in it, and how they talk to it.
+   Keep one line of credit for where the template came from if they want
+   it; ask.
+8. Stamp the install: append to decisions.md, "Installed from the Rhiza OS
+   template, [date], template commit [the short hash of the first commit
+   in this repo's history]."
+9. Write `knowledge/your-map.md`, five beats: (1) welcome, one line; (2)
    talk to it — what it knows about them, and the six teach phrases; (3)
    where things live, in their actual contents, not generic labels, and
    what makes `core/` different; (4) the handful of things that are theirs
@@ -247,13 +313,15 @@ best part. Do not let the owner leave before it.
    a checkup when its facts feel stale, ask for an audit once a month; (5)
    what it never does, and what's waiting in Up next. Their register, no
    builder's name.
-9. **Delete setup/ entirely**, this file and the sheet with it.
-10. **Move the owner home (the bootstrap case).** If this conversation
+10. **Delete setup/ entirely**, this file and the sheet with it.
+11. **Move the owner home (the bootstrap case).** If this conversation
     started outside the system's folder, because the owner opened Documents
-    and pasted the setup line, run `code <the system's folder>` so VS Code
-    opens it in its own window, and say plainly: "One last thing: a new
-    window just opened on your system's folder. That window is home now.
-    Talk to me there from today on, and VS Code will remember it." Without
-    this, tomorrow's "hey" lands in Documents, where the system can't hear
-    them.
-11. Run the handoff skill.
+    and pasted the setup line, they need to end up *in* the folder or
+    tomorrow's "hey" lands in Documents where the system can't hear them.
+    Try `code <the system's folder>`. If that command isn't found, which is
+    normal on a fresh machine and always true in the desktop app, don't
+    retry it. Tell them in one line what to click instead: "Open your
+    business folder in this app from now on, it's the one in Documents
+    called <name>. Everything we just did is in there." Then confirm they
+    can see it before you finish.
+12. Run the handoff skill, which saves all of this.
