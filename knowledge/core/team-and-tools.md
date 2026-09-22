@@ -14,7 +14,7 @@ moves on. Contractors count: the VA, the editor, the launch manager.]
 
 ## The tools this business runs on
 
-| What | Which tool | Who administers it |
+| What | Which tool | Who logs in |
 |---|---|---|
 | Email list | | |
 | Calendar and booking | | |
@@ -25,6 +25,9 @@ moves on. Contractors count: the VA, the editor, the launch manager.]
 | Website and pages | | |
 | Course or member platform | | |
 | Social | | |
+
+*"Who logs in" matters more than it looks: it's who to ask when something
+breaks, and who has to be in the room to connect it.*
 
 *What this system can actually do with each tool lives in `connections/`, one
 file per tool. This table is the inventory; that folder is the reach.*

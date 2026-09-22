@@ -14,14 +14,12 @@ How these work, in plain terms:
 - **OAuth over pasted secrets, wherever possible.** A native Claude
   connector first (sign in once, revoke anytime, no keys in the folder),
   an MCP server second, an API key in `.env` only when neither exists.
-- **Three rungs, three moments (2026-08-07).** Click-in connectors are
-  self-serve: the owner says the word any time and gets walked through
-  the sign-in, two minutes, OAuth only — no keys, nothing pasted. These
-  are deliberately NOT saved for a live call; they belong to the owner
-  and they're easy. Keyed connections get a stub file here naming the
-  tool and what it will do, and get wired on a call where a person
-  can watch the key go in. Engineered connections are the builder's
-  entirely. Every connection is one row in STATE.md until it's real.
+- **Two kinds, and the easy kind is most of them.** Most tools connect by
+  signing in: the owner says the word, gets walked through it in about two
+  minutes, and nothing is ever pasted or stored. A few tools need a key
+  instead. Those get a file here naming the tool and what it will do, and
+  stay unwired until someone can watch the key go in. Anything still
+  unwired is one row on STATE.md, so it never gets forgotten.
 - **Restricted on purpose.** Wherever possible, the OS gets its own limited
   account per tool — it can never act as you. Read-only until there's a
   reason to trust it with more.

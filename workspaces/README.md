@@ -23,7 +23,8 @@ Work that's only happened twice doesn't get a workspace yet — unless the
 owner and the OS scope one together off a real run. Chosen is different
 from assumed.
 
-Copy `_template/CONTEXT.md` to start either shape.
+Copy `_template/RUN.md` to start a run, or `_template/CONTEXT.md` to start a
+step of a repeating job.
 
 **Runs go in a subfolder by kind** once there's more than one: `launches/`,
 `campaigns/`, `programs/`. One launch per folder, named for the offer and the

@@ -71,3 +71,8 @@ here on the owner's yes. The owner never edits this file; talking is enough.
     CLAUDE.md and AGENTS.md, the quality checks in evals/, and
     `knowledge/core/`. On those the system proposes; only the owner's word
     changes them.
+
+    *The first conversation is the exception, and the only one. During
+    onboarding the owner is saying all of it out loud, so writing their
+    answers into these files is their word, not the system editing itself.
+    Once `setup/` is gone, the freeze is absolute.*

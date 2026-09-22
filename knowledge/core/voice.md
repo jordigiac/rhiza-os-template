@@ -17,6 +17,10 @@ habits, the words they reach for, the words they never use.]
 
 ## Sounds wrong
 
+*(Drafted by the system, corrected by the owner. Not a real thing they
+wrote: an example of what their voice is NOT, so the line is visible from
+both sides. If it feels wrong, say so and it gets rewritten.)*
+
 [One example of writing that is NOT this business's voice, and a line on why.]
 
 ## Where the voice changes
