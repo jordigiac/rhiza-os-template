@@ -33,14 +33,14 @@ never sends anything, never touches a connected tool.
 
 ## What "working" looks like
 
-The repo on GitHub shows commits titled `autosave:` with recent timestamps.
+The repo on GitHub shows commits called `autosave` with recent timestamps.
 If the newest commit in the repo is more than a day old and the owner has
 been working, the job has died quietly. The monthly audit checks exactly
 this.
 
 ## Three commit types, so the history reads clearly
 
-- `autosave:` — this job. Nobody looked at it.
+- `autosave` — this job. Nobody looked at it.
 - Plain English — the handoff skill, or the owner. Something happened and it
   says what.
 - `self-edit:` — the system changing how it works, with the evidence and how
