@@ -40,5 +40,8 @@ capture. It may span many sessions, and it ends once, at the finish line.
   ask for the missing piece before closing.
 - The owner's words are the content. Empty sections stay empty rather
   than getting invented filler.
+- `knowledge/core/` is the one part of this conversation that has to be
+  exact. Prices, dates, links and names get read back before they are
+  written, because every draft this system ever makes is built from them.
 - Never name the person who built this. The setup sheet is the only place
   a builder appears, and it deletes with setup/.
