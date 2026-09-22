@@ -34,7 +34,10 @@ can go down the line.
   disk, and everything on disk is reachable from the front desk. Check both
   directions. Plumbing does not need a room: skip dot-prefixed files and
   folders (.claude, .env.example, .gitignore) and AGENTS.md when checking
-  reachability. Confirm AGENTS.md is identical to CLAUDE.md.
+  reachability. `VERSION` is skipped too: it ships with the template and is
+  deleted at the end of onboarding, so seeing it at all means setup never
+  finished, which is the finding worth reporting. Confirm AGENTS.md is
+  identical to CLAUDE.md.
 - New-hire test: open the folder cold. Can a stranger orient and route to
   any task in three reads or fewer? Name where they would get lost.
 - Truth check: files untouched 30+ days that claim to be current,

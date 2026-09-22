@@ -53,6 +53,7 @@ execute on request.
 ## The map
 
 ```
+├── README.md        the one-page intro to this folder, for a human
 ├── CLAUDE.md        THE FRONT DESK — this file; where everything lives
 ├── AGENTS.md        the same file, for AI tools that look for that name
 ├── CONTRACT.md      the laws this system runs on — read every session
