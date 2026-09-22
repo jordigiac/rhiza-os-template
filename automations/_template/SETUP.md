@@ -1,5 +1,9 @@
 # [Automation name] — setup record
 
+*Prefer no script at all. A scheduled command that runs a tool directly
+costs nothing and cannot break. Write a script only when language cannot do
+the job, and then it lives in the sibling code folder (contract law 10).*
+
 ## How it was authorized
 
 [Which accounts/keys it uses, who approved them, and when.]

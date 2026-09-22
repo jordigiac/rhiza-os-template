@@ -11,12 +11,15 @@ their builder starts that conversation, never this system.
 
 Three things worth knowing:
 
-- **The code may live elsewhere.** Bigger automations that run in the cloud
-  get their own small, clearly-labeled repo so runs stay fast and lean. The
-  ABOUT.md always says where. This folder is the map; the machinery can sit
-  in another building. Scripts are reserved for automations that genuinely
-  need them — prompt-only beats prompt-plus-script whenever language can do
-  the job.
+- **The code lives next door, never in here.** When an automation genuinely
+  needs a script, the script goes in the sibling folder beside this OS: one
+  folder next to yours, one subfolder per automation, named to match its
+  record in here (contract law 10). This folder is the map; the machinery
+  sits in the building next door, and every ABOUT.md says exactly where.
+  That split is what keeps this OS plain markdown that any AI can read, and
+  what stops it turning into half-documentation, half-codebase as it grows.
+  Scripts are reserved for automations that truly need them: prompt-only
+  beats prompt-plus-script whenever language can do the job.
 - **Every automation climbs a trust ladder.** It starts as a **beta**
   (a person checks every run), gets **proven** (it passes this business's
   custom quality checks consistently), and only then runs **automated**.
@@ -31,7 +34,14 @@ Three things worth knowing:
   governs safety, the other cost) and is what keeps this OS affordable on
   a regular Claude subscription.
 
+**A grade that makes the owner go somewhere never gets given.** If an
+automation needs a quality check, it collects that check where the owner
+already is — in the chat, at the close of a session — and the system writes
+the answer into the record itself. The trust ladder above is unclimbable
+when the evidence for climbing it lives in a file nobody opens.
+
 Every automation here was watched running successfully before it was
 installed, and each one keeps logs so its health can be checked at any time.
+Logs live beside the code in the sibling folder; the ABOUT.md says where.
 
 Copy `_template/` to start a new automation record.

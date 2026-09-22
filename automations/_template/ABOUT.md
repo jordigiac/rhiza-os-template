@@ -10,7 +10,9 @@
 
 ## Where it lives
 
-[This folder, or a link to its runner repo — e.g., github.com/owner/name-runner.]
+[This folder holds the record. If it needs code, the code lives in the
+sibling folder beside this OS, in a subfolder with this same name — say the
+exact path here.]
 
 ## Trust status
 
@@ -24,4 +26,4 @@ and every item links to a real message."]
 
 ## Logs
 
-[Where run logs land.]
+[Beside the code in the sibling folder, or none if nothing writes logs.]

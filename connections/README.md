@@ -19,7 +19,7 @@ How these work, in plain terms:
   the sign-in, two minutes, OAuth only — no keys, nothing pasted. These
   are deliberately NOT saved for a live call; they belong to the owner
   and they're easy. Keyed connections get a stub file here naming the
-  tool and what it will do, and are wired at the workshop where a person
+  tool and what it will do, and get wired on a call where a person
   can watch the key go in. Engineered connections are the builder's
   entirely. Every connection is one row in STATE.md until it's real.
 - **Restricted on purpose.** Wherever possible, the OS gets its own limited
