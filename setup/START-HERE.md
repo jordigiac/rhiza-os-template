@@ -1,10 +1,10 @@
-# Start here — your operating system, in three steps
+# Start here: your operating system, in three steps
 
 This sheet is the only thing you follow by eye. Everything else is a
 conversation. Nothing here needs technical knowledge, and nothing you do can
 break anything.
 
-## Step 1 — Make your own copy
+## Step 1: Make your own copy
 
 The template is public so anyone can take it. Your copy needs to be *yours*,
 private, so it can save your work.
@@ -23,7 +23,7 @@ else can see it.
 > backs itself up there every hour. Use this template is what makes that
 > work.
 
-## Step 2 — Get Claude and open the folder
+## Step 2: Get Claude and open the folder
 
 Claude is the engine your system runs on.
 
@@ -41,7 +41,7 @@ Claude is the engine your system runs on.
 > same. VS Code is what we recommend because it handles the saving without
 > you thinking about it.
 
-## Step 3 — Say hey
+## Step 3: Say hey
 
 In VS Code: File → Open Folder → pick your Documents folder. Open the Claude
 panel and ask it to set up your operating system, pasting the link to the
