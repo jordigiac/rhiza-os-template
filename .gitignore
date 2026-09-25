@@ -1,0 +1,35 @@
+# Keys and secrets — never committed, on any machine.
+.env
+.env.*
+!.env.example
+*.local
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+credentials.json
+client_secret*.json
+*service-account*.json
+token.json
+tokens.json
+secrets/
+.config/
+
+# Per-machine tool settings (Claude Code writes this one itself).
+.claude/settings.local.json
+
+# Editor and OS clutter.
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Junk.
+node_modules/
+__pycache__/
+*.pyc
+*.tmp
+~$*

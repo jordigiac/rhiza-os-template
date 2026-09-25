@@ -1,62 +1,118 @@
-# Rhiza OS Template
+# Your business's operating system
 
-The master template for the operating systems Rhiza Systems installs in client
-businesses. One folder of plain markdown that an AI (Claude Code or Claude
-Desktop) reads to act as the business's consultant and execution layer.
+A folder of plain text files that gives any AI a memory of your business, so
+you stop starting over.
 
-## How this repo is organized
+Built for coaches and course creators: people whose business is a list, a
+calendar of launches, a few programs, and partners who promote each other.
 
-```
-rhiza-os-template/
-└── template/    ← THE PRODUCT. Cloned once per client, then customized.
-                   Everything inside is client-facing, plain English.
-```
+## The problem this fixes
 
-This repo carries the product only. Jordi's agendas and playbooks live in
-Rhiza's Notion (Internal Documents → Agendas / Playbooks), and the
-workspace-shapes reference lives in the Rhiza OS knowledge folder.
+Every new AI tool is the same first hour: explain what you do, who you serve,
+what you sell, how you sound. Then a better model comes out, or the tool you
+were using changes, and you do it again. Your business never gets to build on
+what the last tool learned.
 
-## How a client install works (async-first, lifecycle v2 — 2026-08-08)
+This folder is the memory. What the business is, what it sells, who it
+serves, how you write, what you decided and why, what's in motion this week.
+All of it in files you own, on your computer, backed up to your own GitHub.
+Point Claude at the folder and it knows your business. Switch to a different
+model next year and point that at the folder too. Nothing gets re-explained.
 
-1. Payment lands → clone `template/` into a new private repo — **named
-   after the business** (`kept-detail-os`, never `client-repo`; the folder
-   name is what the owner sees in Documents forever). Seed
-   `knowledge/problem-list.md` from the sales-call audit, and transfer the
-   repo to the client's GitHub account. (If provisioning is ever scripted
-   with bare repos: set `HEAD` to `main` — `git symbolic-ref HEAD
-   refs/heads/main` — or clones land silently empty.) The welcome email carries
-   `setup/START-HERE.md` and the bootstrap Loom (production materials —
-   the Loom script and welcome emails — live in the Rhiza OS
-   `workspaces/` folder, not in this repo).
-2. The client installs alone, at their pace: claim the repo, clone via
-   GitHub Desktop, install Claude, say hey. `setup/ONBOARDING.md` runs
-   itself — machine check, interview, persona, contract — and finishes by
-   pointing at the workshop booking. Nobody is on the other end; the
-   setup sheet carries the stuck-line.
-3. The workshop (60 min, live): install review, the API-key connections,
-   then the first jam — first solution ships within the week.
-4. Jordi maintains and expands on retainer from there; the monthly audit
-   is the heartbeat.
+You talk to it. It does the work. Everything it learns stays yours.
 
-## Ground rules baked into the product
+Free. Made by [Rhiza Systems](https://rhizasystems.com).
 
-- Plain markdown and folder conventions only — works in any LLM tool.
-- The client owns the repo and every credential. Keys live in `.env`,
-  gitignored, never in any other file.
-- The OS consults by default; the client decides; Jordi engineers.
-- Automations graduate a trust ladder: human-checked beta → passes custom
-  evals consistently → fully automated.
+## What it does once it knows you
 
-## Status (2026-08-07)
+- Drafts emails, posts, and page copy in your voice, from real samples of
+  your writing.
+- Quotes your prices, links, and dates from one file that only changes when
+  you say so, instead of from memory of a chat three weeks ago.
+- Holds your clients, partners, and programs as files it reads before it
+  writes anything.
+- Keeps a launch straight: what goes out when, which link goes where, what
+  each partner still needs from you and by when.
+- Remembers every decision and the reason, so you never re-argue a settled
+  question.
+- Saves itself to your private GitHub every hour. Nothing lives only in a
+  chat window.
 
-- Structure: built. Five preset skills: onboard, handoff, checkup, audit,
-  humanizer. There is no level-up skill — its questions live in the monthly
-  call agenda in Notion.
-- The OS has a self since 2026-08-06: PERSONA.md (woken at onboarding),
-  CONTRACT.md (five starter laws, grows by the owner's spoken word),
-  archive/ (boxed, never deleted), the teach phrases, corrections-teach-
-  twice, self-healing connections, and the cost ladder.
-- `setup/ONBOARDING.md`: v1.2 — machine setup baked in (Part 0); sandbox
-  re-test in progress before client #1.
-- Meeting agendas and playbooks: published to Notion 2026-08-03; this repo
-  is product-only.
+## What you need
+
+- **Claude**, on an account that can run either Claude Code or the Claude
+  desktop app. Plans are at [claude.com/pricing](https://claude.com/pricing).
+- **A GitHub account** (free). Your copy lives there and backs itself up there.
+- **VS Code** (free) if you go the Claude Code route, which is what we
+  recommend. The desktop app works too.
+
+No coding. If you can rename a folder, you can run this.
+
+## Start here
+
+1. **Make your own private copy.** Click **Use this template** at the top of
+   this page, choose **Private**, and name it after your business. Don't
+   download or clone this repo directly: a copy you don't own can't save your
+   work back.
+2. **Get it on your computer and open it.** The walkthrough, with the
+   downloads, is in [`setup/START-HERE.md`](setup/START-HERE.md). Ten minutes.
+3. **Say hey.** Open the folder in Claude and type "hey". It introduces itself
+   and starts the setup conversation: it asks about your business, sets up
+   its own backup, and never sends you to a terminal. About forty minutes.
+   Stop and come back whenever you want; it remembers where you were.
+
+When setup finishes, the `setup/` folder deletes itself and you're running.
+
+## What's in here
+
+| Folder | What it holds |
+|---|---|
+| `knowledge/core/` | The facts every draft is built from: what you sell, who you serve, how you sound. Changes only when you say so. |
+| `knowledge/` | Everything else it learns as you talk: your days, priorities, clients, partners, programs. |
+| `workspaces/` | One folder per real piece of work. A launch, a partner promo, a course build. |
+| `decisions.md` | Every decision and the why, dated. |
+| `STATE.md` | What's alive right now. |
+| `journal.md` | Your own notes at the end of a day. |
+| `connections/` | The tools it can reach, one file each. |
+| `automations/` | What runs on its own, starting with the hourly backup. |
+| `evals/` | The quality bar it holds itself to before anything reaches you. |
+| `archive/` | Nothing is ever deleted. It gets boxed here. |
+
+## The skills it comes with
+
+Say what you want in plain words. It picks the right one. You never learn
+names.
+
+- **onboard** teaches it your business. Runs once, at the start.
+- **pickup** opens a session: where we were, what's next. Changes nothing.
+- **handoff** closes one: files what you said, updates the board, saves to GitHub.
+- **write-like-me** drafts anything in your voice, from real samples of your writing.
+- **humanizer** takes the AI sound out of anything written for a person.
+- **checkup** keeps its facts about you true, in about five minutes.
+- **audit** is the monthly health check on the system itself.
+
+## Being honest about what it isn't
+
+- **It is text, so it travels.** The files work with any AI. But each tool
+  needs its own short setup, so switching saves you the re-explaining, not
+  the whole afternoon.
+- **There's no phone app.** This lives on your computer.
+- **It's one person's system today.** Your team can't work in the same copy
+  yet. Sharing across a company is what's being built next.
+- **It never sends anything.** Emails, posts, and messages get drafted and
+  handed to you. Nothing leaves without you pressing send.
+
+## If you'd rather not set it up alone
+
+The template is free and stays free. What I do is the part after the
+download: set it up with you, teach you how to actually work with it, and
+build the first real thing it does for your business, live, on your business.
+Two thirty-minute calls, $600.
+
+Email **jordigiac08@gmail.com** with the word *setup* and what your business
+does.
+
+## License
+
+Use it, change it, run your business on it. If you turn it into a product of
+your own, say where it came from.
