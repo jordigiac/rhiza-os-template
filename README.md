@@ -109,8 +109,8 @@ download: set it up with you, teach you how to actually work with it, and
 build the first real thing it does for your business, live, on your business.
 Two thirty-minute calls, $600.
 
-Email **jordigiac08@gmail.com** with the word *setup* and what your business
-does.
+Book it here: **https://buy.stripe.com/28EaEXbiC0kQ3oYcGvb7y07**. Or email
+**jordigiac08@gmail.com** with the word *setup* and what your business does.
 
 ## License
 

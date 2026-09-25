@@ -67,8 +67,8 @@ Your system can be set up with you on two thirty-minute calls: one to go
 through your setup together and teach you how to actually work with it, one
 to build your first real capability live on your business. $600.
 
-Email **jordigiac08@gmail.com** with the word *setup* and what your business
-does.
+Book it here: **https://buy.stripe.com/28EaEXbiC0kQ3oYcGvb7y07**. Or email
+**jordigiac08@gmail.com** with the word *setup* and what your business does.
 
 ## If you get stuck
 
