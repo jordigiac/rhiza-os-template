@@ -3,6 +3,9 @@
 A folder of plain text files that gives any AI a memory of your business, so
 you stop starting over.
 
+Built for coaches and course creators: people whose business is a list, a
+calendar of launches, a few programs, and partners who promote each other.
+
 ## The problem this fixes
 
 Every new AI tool is the same first hour: explain what you do, who you serve,
@@ -28,8 +31,8 @@ Free. Made by [Rhiza Systems](https://rhizasystems.com).
   you say so, instead of from memory of a chat three weeks ago.
 - Holds your clients, partners, and programs as files it reads before it
   writes anything.
-- Keeps a piece of work straight: what goes out when, which link goes where,
-  what's still owed.
+- Keeps a launch straight: what goes out when, which link goes where, what
+  each partner still needs from you and by when.
 - Remembers every decision and the reason, so you never re-argue a settled
   question.
 - Saves itself to your private GitHub every hour. Nothing lives only in a
@@ -66,7 +69,7 @@ When setup finishes, the `setup/` folder deletes itself and you're running.
 |---|---|
 | `knowledge/core/` | The facts every draft is built from: what you sell, who you serve, how you sound. Changes only when you say so. |
 | `knowledge/` | Everything else it learns as you talk: your days, priorities, clients, partners, programs. |
-| `workspaces/` | One folder per real piece of work. A launch, a campaign, a project. |
+| `workspaces/` | One folder per real piece of work. A launch, a partner promo, a course build. |
 | `decisions.md` | Every decision and the why, dated. |
 | `STATE.md` | What's alive right now. |
 | `journal.md` | Your own notes at the end of a day. |
