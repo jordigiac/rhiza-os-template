@@ -104,13 +104,10 @@ names.
 
 ## If you'd rather not set it up alone
 
-The template is free and stays free. What I do is the part after the
-download: set it up with you, teach you how to actually work with it, and
-build the first real thing it does for your business, live, on your business.
-Two thirty-minute calls, $600.
-
-Book it here: **https://buy.stripe.com/28EaEXbiC0kQ3oYcGvb7y07**. Or email
-**jordigiac08@gmail.com** with the word *setup* and what your business does.
+The template is free and stays free. If you want help putting it into your
+business and building out the automations worth having, book a free call:
+**https://cal.com/jordi-giacobbe/discovery-and-audit**. Or email **jordigiac08@gmail.com** and tell me what your business
+does.
 
 ## License
 
