@@ -106,7 +106,7 @@ names.
 
 The template is free and stays free. If you want help putting it into your
 business and building out the automations worth having, book a free call:
-**https://cal.com/jordi-giacobbe/discovery-and-audit**. Or email **jordigiac08@gmail.com** and tell me what your business
+**https://cal.com/jordi-giacobbe/discovery**. Or email **jordigiac08@gmail.com** and tell me what your business
 does.
 
 ## License
