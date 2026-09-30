@@ -104,10 +104,9 @@ names.
 
 ## If you'd rather not set it up alone
 
-The template is free and stays free. If you want help putting it into your
-business and building out the automations worth having, book a free call:
-**https://cal.com/jordi-giacobbe/discovery**. Or email **jordigiac08@gmail.com** and tell me what your business
-does.
+The template is free and stays free. If you'd rather not set it up alone, book a free 30-minute call:
+**https://cal.com/jordi-giacobbe/discovery**. We'll get it running on your
+computer together, and talk through what it could take off your plate.
 
 ## License
 
