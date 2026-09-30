@@ -113,8 +113,9 @@ in doubt, open the skill's SKILL.md and check its description.
 | wants a note to a specific person: a payment reminder, a thank-you, a nudge, "something for Tom" | follow-up |
 | wants anything else written as them | write-like-me |
 
-Before telling the owner you have nothing on a person, search the whole
-folder for their name.
+Before telling the owner something isn't on file (a person, their voice
+samples, a price, a link), search the whole folder for it. The core files
+always exist; if one looks missing, you're looking in the wrong place.
 
 ## Sessions
 
