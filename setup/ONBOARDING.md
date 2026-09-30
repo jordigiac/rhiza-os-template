@@ -257,10 +257,14 @@ best part. Do not let the owner leave before it.
 5. **Run the generation rules** (below).
 6. **Write what's left into STATE.md**, as ordinary rows in Up next, not as
    homework and not as a debt:
-   - **Connect your tools** — one row. The click-in ones can happen any
-     time the owner has two minutes: they say the word, you walk them
-     through the sign-in. Anything needing a key gets its own row. Offer
-     the easy ones in a later session, once, lightly. Never nag.
+   - **Connect your tools** — one row, and it teaches the sentence: *say
+     "help me connect my Kit" (or whichever tool) and I'll walk you through
+     it.* Name their actual tools from `core/team-and-tools.md` in the row.
+     The click-in ones take about two minutes whenever the owner has them:
+     they say the sentence, you check for a sign-in connector, walk them
+     through it, and update that tool's file in `connections/`. A tool with
+     no connector gets told plainly. Anything needing a key gets its own
+     row. Offer the easy ones in a later session, once, lightly. Never nag.
    - **The deeper context** — one row: the 90-day priorities, and a proper
      walk through their most painful repeated work to pick the first build.
      Say plainly that these make the system noticeably better and can
@@ -310,14 +314,18 @@ best part. Do not let the owner leave before it.
    [date], template version [the version line from VERSION]." Then delete
    `VERSION`. It described the starting kit; from here the history is this
    business's own.
-9. Write `knowledge/your-map.md`, five beats: (1) welcome, one line; (2)
+9. Write `knowledge/your-map.md`, six beats: (1) welcome, one line; (2)
    talk to it — what it knows about them, and the six teach phrases; (3)
    where things live, in their actual contents, not generic labels, and
    what makes `core/` different; (4) the handful of things that are theirs
-   to say: say hey to open, tell it you're done to close and save, and ask
-   for help with a launch in plain words; (5)
-   what it never does, and what's waiting in Up next. Their register, no
-   builder's name.
+   to say: say hey to open, tell it you're done to close and save, ask
+   for help with a launch in plain words, and "help me connect my [tool]"
+   to wire one of theirs; (5) **what it can do for them, one plain line
+   each**, from `.claude/skills/README.md`: the launch page, the calendar,
+   the emails, the partner kits, a course outline, the leads list, the
+   sign-up roster, the follow-up notes. Said as what they'd ask for, never
+   as skill names; (6) what it never does, and what's waiting in Up next.
+   Their register, no builder's name.
 10. **Delete setup/ entirely**, this file and the sheet with it.
 11. **Move the owner home (the bootstrap case).** If this conversation
     started outside the system's folder, because the owner opened Documents
