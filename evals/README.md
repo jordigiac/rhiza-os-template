@@ -30,16 +30,13 @@ wants to go into the knowledge base on their yes).
 Verdicts are **pass or fail plus a short critique**, never a score out of
 ten. A critique holds the nuance; the verdict holds the line.
 
-## The other two layers
+## The other layer
 
 **Custom exams.** Every automation and custom skill gets its own folder here,
 copied from `_template/`: a dataset of test cases, scorers that define what
 done looks like, and dated scorecards. They are the graduation exams of the
 trust ladder in `automations/`. Nothing moves from beta to automated without
 passing its exam consistently.
-
-**The audit** is the eval of the system itself. Monthly, read-only, reports
-into `audits/`.
 
 ## The correction ledger
 

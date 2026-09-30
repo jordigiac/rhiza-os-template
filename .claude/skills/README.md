@@ -28,18 +28,39 @@ Only automation code lives outside, in the sibling folder beside this one.
 - **humanizer** — the voice guard. Anything meant for a person runs through
   it, so nothing leaves sounding like AI. (Vendored from blader/humanizer,
   MIT, with additions.)
-- **checkup** — the five-minute conversation that keeps knowledge true: the
-  oldest and most load-bearing beliefs, confirmed, corrected, or rejected by
-  the owner.
-- **audit** — the truth check on the system itself. A read-only monthly
-  report, scored against fixed anchors, that then fixes only what the owner
-  approves.
 
 There is no "level-up" skill. Surfacing what to automate next is a
 conversation, not software.
 
-Skills the owner uses day to day are custom work, added here as the business
-needs them.
+## The launch library
+
+For coaches and course creators who run launches, teach, and trade promos
+with partners. Each one drafts and tracks; nothing is ever sent, charged or
+scheduled for the owner.
+
+- **launch-facts** — the one page of facts for a launch: offer, dates,
+  prices, links, who gets the emails, partners. Everything below reads
+  from it. A one-off workshop is just a smaller launch.
+- **launch-calendar** — every email, post, partner send and setup deadline,
+  dated, fitted to the owner's week.
+- **messaging** — the launch emails and posts, in the owner's voice, three
+  to five at a time, plus the swipe copy partners send.
+- **jv-kit** — one packet per partner: their dates, their link, their
+  terms, the approved emails.
+- **curriculum** — a course outline built from the owner's own method, kept
+  in `knowledge/programs/`.
+- **leads** — everyone who might buy, with one next step each. Lives in
+  the owner's own tool once it's connected; a plain table until then.
+- **registrations** — who signed up and who paid, per event. Tracks money,
+  never moves it.
+- **follow-up** — one personal draft per person after an event or a sales
+  conversation.
+
+Tested on Claude Sonnet and up, on two sandbox coaches. Not yet on a real
+coach's files.
+
+Anything else the owner does by hand every week is custom work, added here
+as the business needs it.
 
 ## Routing is the system's job
 

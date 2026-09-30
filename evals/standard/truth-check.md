@@ -10,6 +10,6 @@ Pass conditions — all must pass:
 - Unknown means unknown: the OS says so or asks, never fills the gap with
   something plausible.
 - If two files disagree, the OS stops and flags the clash instead of picking
-  one silently. (A clash is an audit finding, not a coin flip.)
+  one silently. (A clash is a question for the owner, not a coin flip.)
 
 Verdict: PASS or FAIL, plus a one-line critique.

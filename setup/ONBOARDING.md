@@ -48,7 +48,7 @@ and never quietly keep both.
 - [ ] Part 1 — the business (the core)
 - [ ] Part 2 — the owner, the voice, the persona, the contract
 - [ ] ★ Finish line 1 — the context test
-- [ ] ★ Finish line 2 — completion declared, first workspace started
+- [ ] ★ Finish line 2 — completion declared, first help offered
 - [ ] ★ Finish line 3 — the generation rules, all of them, files written
 
 **Resuming:** while this folder exists, onboarding is unfinished. Any
@@ -242,16 +242,18 @@ best part. Do not let the owner leave before it.
    business, knows you, and has its laws. It's working, right now. From
    here it just gets sharper the more you use it." Not "you've completed
    step 4 of 9." Done.
-3. **Start their first piece of real work.** "What's the next thing you're
-   launching or running, and when?" Copy `workspaces/_template/RUN.md` to
-   `workspaces/launches/<name>/RUN.md` and fill what they just said: the
-   offer, the dates with their years, who's involved, the links, what has
-   to go out. Leave the rest as open questions. If nothing is coming up,
-   skip it without ceremony. Seeing one real piece of work in the folder is
-   what makes the rest make sense.
+3. **Offer help with something real, right now.** Ask, in plain words:
+   - "Are you in the middle of a launch? Want help with it?"
+   - "Is there a new launch coming up you want to get started?"
+   - "Or do you need help getting organized? What can I take off your
+     plate today?"
+   Whichever they pick gets done now. A launch, new or already running,
+   runs the launch-facts skill: one page of facts that everything else
+   builds from. Getting organized means taking one real, current thing off
+   their plate. If they'd rather stop, that's fine too. Seeing one real
+   piece of work in the folder is what makes the rest make sense.
 4. **Mention the help, once, warmly.** "If you'd rather not build the rest
-   of this alone, the setup sheet has a link to get it done with you on two
-   short calls." Never book anything. Never chase. Say it once.
+   of this alone, the setup sheet has a link to book a free call about it." Never book anything. Never chase. Say it once.
 5. **Run the generation rules** (below).
 6. **Write what's left into STATE.md**, as ordinary rows in Up next, not as
    homework and not as a debt:
@@ -312,8 +314,8 @@ best part. Do not let the owner leave before it.
    talk to it — what it knows about them, and the six teach phrases; (3)
    where things live, in their actual contents, not generic labels, and
    what makes `core/` different; (4) the handful of things that are theirs
-   to say: say hey to open, tell it you're done to close and save, ask for
-   a checkup when its facts feel stale, ask for an audit once a month; (5)
+   to say: say hey to open, tell it you're done to close and save, and ask
+   for help with a launch in plain words; (5)
    what it never does, and what's waiting in Up next. Their register, no
    builder's name.
 10. **Delete setup/ entirely**, this file and the sheet with it.

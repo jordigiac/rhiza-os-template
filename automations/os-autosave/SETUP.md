@@ -113,7 +113,8 @@ of every commit.
 
 Nothing is lost. Everything is still on your computer, and the next proper
 close will push all of it. A dead backup is a quiet problem, not an urgent
-one, which is exactly why the monthly audit goes looking for it.
+one, which is exactly why pickup checks for it at the start of every
+session.
 
 ## What it never does
 

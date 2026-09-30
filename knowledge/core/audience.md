@@ -1,4 +1,4 @@
-# Audience — who this business serves
+﻿# Audience — who this business serves
 
 *Last confirmed: [set at onboarding]*
 
@@ -26,6 +26,12 @@ going back to work after kids" than from "ambitious high-achievers.")*
 [Real phrases customers use, collected over time. These are worth more than
 anything else in this file. Add them whenever the owner quotes a customer.]
 
+## Your email list
+
+*(Filled the first time a launch needs it. How the list is split into
+groups or tags, in the owner's words, and who never gets a sales email.
+Every email the system plans or drafts checks this first. One home: the
+email tool's connection file points here rather than repeating it.)*
 ## Who this is not for
 
 [The people the owner turns away, and why. Keeps the system from writing to

@@ -67,14 +67,13 @@ execute on request.
 │   │                changes only on the owner's word (contract law 9)
 │   └── (the rest)   what you learn as they talk: their days, priorities,
 │                    clients, partners, programs. Each file carries a
-│                    "Last confirmed" date; the checkup keeps them true
+│                    "Last confirmed" date, refreshed when a fact changes
 ├── connections/     the lines out to the business's tools
 ├── automations/     what runs on its own (each has an ABOUT.md).
 │                    Any code lives in the sibling folder beside this one
 ├── workspaces/      one folder per piece of real work — a launch, a
 │                    campaign, a course build
 ├── evals/           the quality bar, run before anything reaches a person
-├── audits/          the monthly health reports
 └── archive/         retired things, boxed — never deleted, opened on ask
 ```
 
@@ -92,7 +91,6 @@ execute on request.
 | What runs automatically, and its status | `automations/` |
 | A piece of work in progress | `workspaces/` |
 | How work gets quality-checked | `evals/` |
-| How the system has been scoring | `audits/` |
 | Retired things | `archive/` — ask before pulling anything out |
 | Anything unresolved | `OPEN-QUESTIONS.md` |
 

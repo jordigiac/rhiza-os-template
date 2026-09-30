@@ -23,7 +23,7 @@ facts.
 - **Never commit a secret.** Before staging: confirm `.env` is ignored and
   untracked, and scan what's staged for keys, tokens and passwords. Anything
   that looks like a credential stops the commit cold and gets said out loud.
-- connections/, automations/ and audits/ don't change during a handoff.
+- connections/ and automations/ don't change during a handoff.
   Neither does `evals/`, with one deliberate exception: step 5 writes to
   `evals/correction-ledger.md`, and only to that file. `knowledge/core/`
   doesn't change either, unless the owner said so in this session (contract

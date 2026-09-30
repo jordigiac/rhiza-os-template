@@ -21,8 +21,9 @@ messages, and the system's own replies in chat.
   everywhere, no inflated language, no filler openers.
 - Reads like `knowledge/core/voice.md` and the samples beside it, not like a
   press release.
-- Every price, date, link and name traces to `knowledge/core/`. Nothing
-  quoted from memory of a conversation.
+- Every price, date, link and name traces to `knowledge/core/`, or to
+  the launch's `launch-facts.md` for anything that belongs to one launch.
+  Nothing quoted from memory of a conversation.
 
 ## 2 — Done the way the owner thinks
 

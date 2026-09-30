@@ -88,8 +88,20 @@ names.
 - **handoff** closes one: files what you said, updates the board, saves to GitHub.
 - **write-like-me** drafts anything in your voice, from real samples of your writing.
 - **humanizer** takes the AI sound out of anything written for a person.
-- **checkup** keeps its facts about you true, in about five minutes.
-- **audit** is the monthly health check on the system itself.
+
+And a launch library, for the work coaches repeat:
+
+- **launch-facts** keeps one page of facts per launch, so every email
+  quotes the right date, price and link.
+- **launch-calendar** dates every email, post and partner send.
+- **messaging** drafts the launch emails and posts in your voice.
+- **jv-kit** builds the packet each partner needs to promote you.
+- **curriculum** outlines a course from your own method.
+- **leads** keeps everyone who might buy, with one next step each.
+- **registrations** tracks who signed up and who paid. It never moves money.
+- **follow-up** drafts a personal note to each person after an event.
+
+It drafts. You send. Works best on Claude Sonnet or better.
 
 ## Being honest about what it isn't
 

@@ -17,6 +17,10 @@ the chair.
 2. **Check git, and only report it.** Has anything changed since the last
    close? Is anything uncommitted or unpushed? Say it in one line and suggest
    the handoff if there's work sitting unsaved. Never sync, never commit.
+   **Is the hourly backup alive?** If `automations/os-autosave/` is
+   installed and the newest commit is more than a day old while the owner
+   has been working, the backup has stopped. Say so in one line, and that
+   closing properly is their only save until it's fixed.
 3. **Brief them in under ten lines:**
    - What closed last time.
    - What's alive now.

@@ -16,4 +16,4 @@ result.]
 ## If it breaks
 
 [What the owner will notice, and who to contact — filled in when this
-automation is installed. Logs get reviewed at every monthly audit.]
+automation is installed, and how its logs get checked.]

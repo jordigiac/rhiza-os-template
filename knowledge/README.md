@@ -1,4 +1,4 @@
-# knowledge/ — what this OS knows about the business
+﻿# knowledge/ — what this OS knows about the business
 
 Two layers, and the difference between them matters.
 
@@ -49,9 +49,8 @@ instead of repeating it. Two copies of a price is how a wrong one ships.
 
 **Every fact file opens with a "Last confirmed:" line** — the date a human
 last said its contents are still true. Live capture and the handoff sweep
-refresh it when facts change, the checkup refreshes the oldest, and the audit
-counts the ages. No date means never confirmed, which puts it first in line
-at the next checkup.
+refresh it when facts change. No date means never confirmed: when a draft
+leans on a fact like that, the system says so and asks.
 
 **Paths are load-bearing.** Skills and checks point at these files by name.
 Before moving or renaming one, search the whole folder for anything that
@@ -68,6 +67,7 @@ Consolidation is a deliberate job the owner asks for, not a tidy-up.
 | A new offer, course, or event | `core/offers.md` (a new block) |
 | A price change | `core/offers.md`, on the owner's word |
 | Something a customer said, word for word | `core/audience.md` |
+| How the email list is split, and who never gets a sales email | `core/audience.md`, under Your email list |
 | Something the owner wrote that sounds like them | `core/voice-samples.md` |
 | A new team member, contractor, or tool | `core/team-and-tools.md` |
 | A new client | `clients/` |

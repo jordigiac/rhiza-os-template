@@ -11,8 +11,8 @@ This system changes how it works on evidence, not on one bad moment
   sighting. Nothing changes yet.
 - The same thing happens again → it becomes a change, and the entry moves to
   APPLIED with a line saying what changed.
-- A sighting sits for about 30 days with no second occurrence → the audit
-  proposes retiring it. A pattern that never came back was noise.
+- A sighting sits for about 30 days with no second occurrence → the next
+  handoff that notices it proposes retiring it. A pattern that never came back was noise.
 
 | Date | What happened | Status | What changed |
 |---|---|---|---|

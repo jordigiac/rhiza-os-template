@@ -35,8 +35,8 @@ never sends anything, never touches a connected tool.
 
 The repo on GitHub shows commits called `autosave` with recent timestamps,
 and on Windows the task's Last Result reads 0. If the newest commit is more
-than a day old and the owner has been working, the job has died. The monthly
-audit checks exactly this.
+than a day old and the owner has been working, the job has died. Pickup
+checks exactly this at the start of every session.
 
 **It cannot fail silently any more, and that was deliberate work.** Every
 step is chained so a failure stops the chain and gets reported. An earlier
