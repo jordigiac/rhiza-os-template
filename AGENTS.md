@@ -96,6 +96,26 @@ execute on request.
 
 Load only what the task needs. Never the whole folder for one question.
 
+## Which skill does the job
+
+Match what the owner says to the skill, even when they never name one. When
+in doubt, open the skill's SKILL.md and check its description.
+
+| When the owner… | Use |
+|---|---|
+| talks about something they're selling on a date (a launch, a workshop, a cohort), gives or changes its dates, prices, links or partners, or answers its open questions | launch-facts |
+| wants the launch planned, or asks what goes out when | launch-calendar |
+| wants launch emails or posts, or a partner's swipe copy | messaging |
+| asks what to send a partner, or for a partner kit | jv-kit |
+| wants a course or program outlined or reworked | curriculum |
+| mentions a person who might buy, even in passing, or asks who's due a follow-up | leads |
+| says someone signed up, paid, wants a refund, or is coming free | registrations |
+| wants a note to a specific person: a payment reminder, a thank-you, a nudge, "something for Tom" | follow-up |
+| wants anything else written as them | write-like-me |
+
+Before telling the owner you have nothing on a person, search the whole
+folder for their name.
+
 ## Sessions
 
 - **Start:** run the pickup skill. It reads the board, the open questions,

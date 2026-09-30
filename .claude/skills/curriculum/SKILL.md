@@ -111,7 +111,9 @@ is.
    - Promise → module outcomes → lessons → practice and action step →
      checkpoint. Each link is real; nothing floats.
    - Modules come in dependency order.
-   - Clock and workload pass (rule 4).
+   - Clock and workload pass (rule 4). Count the weeks: every module sits in
+     a real session, no two modules share one unless planned, and the
+     count matches the sessions the owner gave.
    - Every outcome and checkpoint is observable (rule 2); the promise is
      within the student's control (rule 3).
    - Provenance labels are right: nothing suggested is shown as the owner's.
@@ -125,8 +127,10 @@ is.
    the outline lives once, in plain words ("it's in your programs folder,
    under Re-Entry Lab"). Give the promise, the module list (one line each:
    outcome + checkpoint), what's suggested vs. the owner's own method, the
-   time fit, and up to 5 questions (their framework, stories, must-teach
-   topics first). Ask for an okay on the outline before lesson detail.
+   time fit, and **at most 5 questions** (their framework, stories,
+   must-teach topics first). Everything else you'd ask goes under *Still
+   needed* on the page, not in the reply. Where you'd recommend something,
+   apply it as `(suggested)` rather than asking. Ask for an okay on the outline before lesson detail.
    The reply runs the Gate (`evals/gate.md`) like anything a person reads.
 7. **On the owner's okay,** mark the outline Approved (dated) on the page
    itself, and set the file's *Last confirmed* line to today. Then write

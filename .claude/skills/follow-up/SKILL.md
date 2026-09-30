@@ -1,6 +1,6 @@
 ﻿---
 name: follow-up
-description: Drafts personal follow-up messages, one per person, in the owner's voice. Covers after a session, workshop or event (attended, no-show, bought, didn't buy), lead nudges from the pipeline's next actions, and payment reminders from the roster. Personal lines come only from what the owner noted; private notes shape the tone and are never quoted. Use when the owner asks to follow up with attendees, no-shows, leads or people who owe, "write my thank-yous", or "who should I email after Saturday". Drafts only, in small batches; nothing is sent.
+description: Drafts personal follow-up messages, one per person, in the owner's voice. Covers after a session, workshop or event (attended, no-show, bought, didn't buy), lead nudges from the pipeline's next actions, and payment reminders from the roster. Personal lines come only from what the owner noted; private notes shape the tone and are never quoted. Use when the owner asks to follow up with attendees, no-shows, leads or people who owe, asks for a payment reminder or "something for" a named person, "write my thank-yous", "who should I follow up with", or "who should I email after Saturday". Drafts only, in small batches; nothing is sent.
 metadata:
   version: 2.0.0
   fitted-from: follow-up 1.2.0 (Jonathan's draft), fitted to the template 2026-09-29
@@ -113,7 +113,11 @@ drafts only. It never changes a stage, a payment, attendance or a fact.
 
 ## Steps
 
-1. **Find who and why.** After an event: everyone on the roster with
+1. **Find the people first.** Search the whole OS for each name the owner
+   gave (the rosters in `workspaces/launches/`, the pipeline, the program
+   files) before asking the owner anything. Never say you have nothing on
+   someone until you've searched for their name.
+   **Then find who and why.** After an event: everyone on the roster with
    attendance recorded (if attendance isn't recorded, ask for it; don't
    guess who came). Leads: open leads due today or overdue, or those the
    owner names. Also go through every open lead: one with no next action

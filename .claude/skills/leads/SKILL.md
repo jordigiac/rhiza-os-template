@@ -53,8 +53,10 @@ The rules below apply wherever the pipeline lives.
    of these that exists: a date the owner gave; the owner's own promise
    ("I said I'd send it tomorrow"); the lead's stated timing ("after the
    15th"); the owner's standing follow-up rule. Otherwise suggest one,
-   marked `(suggested)`. Never present your date as the owner's. A lead
-   with no next action is flagged.
+   marked `(suggested)`. Never present your date as the owner's. Never
+   save an open lead without a next action: if the owner gave none,
+   suggest the obvious one ("reply to her question about the Lab") with a
+   date, both marked `(suggested)`, and say so.
 3. **Fixed stages, moved only by evidence.** Stage is where the sale
    stands; the next action is what the owner does next. An activity alone
    doesn't move a stage. Use only these:
@@ -66,7 +68,10 @@ The rules below apply wherever the pipeline lives.
    - **Won:** the owner clearly says they became a client.
    - **Lost:** the owner clearly says it's not moving forward.
    - **Not now:** the lead asked to revisit later. Needs a check-back date
-     (theirs, the owner's, or `(suggested)`).
+     (theirs, the owner's, or `(suggested)`). Any weekday you write next to
+   a date, anywhere in the pipeline, is checked with a calendar tool
+   first (for example `date -d 2027-03-02 +%a`); if you can't check it,
+   leave the weekday off.
    If the owner's words don't clearly fit Won or Lost, ask.
    **Last contact** is the latest real sales-related exchange between the
    owner and the lead, not a note, an internal to-do or an automated email.
@@ -113,10 +118,16 @@ The rules below apply wherever the pipeline lives.
 When the owner mentions someone in passing who sounds like a possible
 client ("I met a woman at the school gate who wants to go back to work"),
 ask once, in one line: "Sounds like a possible client. Want me to add her
-to your pipeline?" On a yes, add her below. On a no, drop it. Never add
+to your pipeline?" If the owner keeps leads in a tool that isn't connected
+yet, say where she'd go in the same breath: "She'd go in a simple table
+here for now, since Notion isn't connected. Say 'help me connect Notion'
+any time." On a yes, add her below. On a no, drop it. Never add
 someone the owner didn't say yes to.
 
 ### Add leads (one or a brain dump)
+When the owner says "add Sarah" for someone not in the pipeline yet, add
+them now with what you have (`[Last name needed]`, `[Email needed]`) and
+say what's missing. Don't ask again whether to add them.
 1. For each person: check for a possible duplicate first (rule 4).
 2. Add a row with the next ID: source, interested in, stage (New, or
    Contacted if the owner already reached out), next action and due date.
@@ -155,7 +166,10 @@ what's in the table.
 
 ## Every reply
 
-Short and plain. What changed, what's due, and questions (duplicates,
+Short and plain, about the owner's people, never about this skill or how
+you decided. If the owner keeps leads in a tool that isn't connected, name
+the tool and the sentence that connects it ("say 'help me connect
+Notion'"). What changed, what's due, and questions (duplicates,
 conflicting details, unclear Won/Lost, missing details). Say "your
 pipeline", and say where it lives once, in plain words ("in your pipeline
 folder" or "in ClickUp"). Check every weekday you write against a calendar
