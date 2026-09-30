@@ -132,7 +132,11 @@ drafts only. It never changes a stage, a payment, attendance or a fact.
    voice, the next step only if a real one exists (rule 6), exact links. A
    personal line only from the owner's notes (rule 1), with tone shaped by
    private notes (rule 2).
-4. **Check before saving**, per person: the right person; the right
+4. **Check before saving**, per person. First, read every subject line and
+   sentence for pressure: "before it fills", "spots are going", "lock in
+   your spot", "last chance", "don't miss". Cut each one unless the
+   roster or facts page has a real cap and a real deadline that says so.
+   A payment reminder has none of them, ever. Then: the right person; the right
    situation and priority; no stale or conflicting fact; every personal
    detail traces to the owner; no private note leaks; links, prices and
    amounts match their source; no ask that isn't real; no standing rule
