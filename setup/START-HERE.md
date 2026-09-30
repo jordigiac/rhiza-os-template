@@ -63,13 +63,13 @@ Documents, and you're back.
 
 ## If you'd rather not do it alone
 
-If you want help putting it into your business and building out the
-automations worth having, book a free call: **https://cal.com/jordi-giacobbe/discovery**. Or email
-**jordigiac08@gmail.com** and tell me what your business does.
+If you'd rather not set it up alone, book a free 30-minute call:
+**https://cal.com/jordi-giacobbe/discovery**. We'll get it running on your
+computer together, and talk through what it could take off your plate.
 
 ## If you get stuck
 
-**jordigiac08@gmail.com.** Same-day replies on weekdays.
+Email **jordigiac08@gmail.com** and tell me where you got stuck.
 
 A stuck setup never dead-ends, and there is no such thing as a dumb question
 on this one.
